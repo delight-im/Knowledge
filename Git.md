@@ -31,3 +31,9 @@ When you've added a file to `.gitignore` that was previously in the repository a
 
  1. `git rm -r --cached .`
  2. `git add .`
+
+## Undo some commits and roll back to an old commit
+
+ 1. `git checkout <COMMIT_HASH> .`
+ 2. `git commit -m 'Undo some commits'`
+ 3. `git push origin master`
