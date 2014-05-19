@@ -37,3 +37,17 @@ When you've added a file to `.gitignore` that was previously in the repository a
  1. `git checkout <COMMIT_HASH> .`
  2. `git commit -m 'Undo some commits'`
  3. `git push origin master`
+
+## Change a repository's origin URL
+
+`git remote set-url origin <NEW_ORIGIN_URL>`
+
+## Discard unstaged changes
+
+In order to discard *all* unstaged changes, run this command:
+
+`git checkout -- .`
+
+If you want to discard changes for a specific path only, call this:
+
+`git checkout <PATH_TO_DISCARD_CHANGES_FOR>`
