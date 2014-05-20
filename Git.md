@@ -51,3 +51,17 @@ In order to discard *all* unstaged changes, run this command:
 If you want to discard changes for a specific path only, call this:
 
 `git checkout <PATH_TO_DISCARD_CHANGES_FOR>`
+
+## Undo a commit that has already been published
+
+`git push -f origin HEAD~1:master`
+
+## Undo a local commit (that has not been published yet)
+
+If you want to keep the changes in your working copy:
+
+`git reset --soft HEAD~1`
+
+If you want to undo all changes in your working copy as well:
+
+`git reset --hard HEAD~1`
