@@ -65,3 +65,17 @@ If you want to keep the changes in your working copy:
 If you want to undo all changes in your working copy as well:
 
 `git reset --hard HEAD~1`
+
+## Show changes that have been made to the working copy
+
+If you want to show unstaged (not committed yet) changes only:
+
+`git diff`
+
+If you want to show staged (committed) changes only:
+
+`git diff --staged`
+
+If you want to show all changes, no matter if staged or unstaged:
+
+`git diff HEAD`
