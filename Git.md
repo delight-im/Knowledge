@@ -2,19 +2,19 @@
 
 ## Update a forked repository (sync with the original again)
 
- 1. The first time only, execute the following command to add the forked repository as a remote, otherwise skip it
- 2. `git remote add forked git://github.com/user_you_forked_from/repository_you_forked.git`
+ 1. The first time only, execute the following command to add the forked repository ("upstream") as a remote, otherwise skip it
+ 2. `git remote add upstream <GIT_URL_OF_ORIGINAL_REPOSITORY>`
  3. Whenever you want to get updates from the forked repository (and push them to your own repository on GitHub):
- 4. `git pull forked master`
+ 4. `git pull upstream master`
  5. `git push origin`
 
 ## Reset a repository to the forked repository's state (e.g. after denied pull request)
 
- 1. The first time only, execute the following command to add the forked repository as a remote, otherwise skip it
- 2. `git remote add forked git://github.com/user_you_forked_from/repository_you_forked.git`
+ 1. The first time only, execute the following command to add the forked repository ("upstream") as a remote, otherwise skip it
+ 2. `git remote add upstream <GIT_URL_OF_ORIGINAL_REPOSITORY>`
  3. Whenever you want to reset the repository's state:
  4. `git remote update`
- 5. `git reset --hard forked/master`
+ 5. `git reset --hard upstream/master`
  6. `git push origin +master`
 
 ## Show all ignored files for a repository
@@ -79,3 +79,13 @@ If you want to show staged (committed) changes only:
 If you want to show all changes, no matter if staged or unstaged:
 
 `git diff HEAD`
+
+## Delete a branch
+
+To delete a local branch:
+
+`git branch -d <LOCAL_BRANCH>`
+
+To delete a remote branch:
+
+`git push origin :<REMOTE_BRANCH>`
