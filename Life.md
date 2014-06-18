@@ -22,7 +22,7 @@
  * "A ship is safe in harbor, but that's not what ships are for." (William G. T. Shedd)
  * A calm sea does not make a skilled sailor.
  * "People will forget what you said, people will forget what you did, but people will never forget how you made them feel." (Maya Angelou)
- * "Man cannot discover new oceans unless he has the courage to lose sight of the shore." (André Gide)
+ * "Man cannot discover new oceans unless he has the courage to lose sight of the shore." (AndrÃ© Gide)
  * "Be yourself; everyone else is already taken." (Oscar Wilde)
  * "No one can make you feel inferior without your consent." (Eleanor Roosevelt)
  * "Be the change you want to see in the world." (Mahatma Gandhi)
