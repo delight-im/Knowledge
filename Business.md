@@ -13,3 +13,5 @@
  * "A complex system that works is invariably found to have evolved from a simple system that works." (John Gall)
  * Advertising is like the flu. If it's not constantly changing, people develop immunity.
  * "Sizing the market for a disruptor based on an incumbent's market is like sizing the car industry off how many horses there were in 1910." (Aaron Levie)
+ * Don't compare your company to a family -- it's not a lifetime relationship and layoffs are part of the game. You shouldn't (and can't) trust in loyalty blindly.
+ * Consider your company a professional sports teams: You have a mission and come together with other people to accomplish that mission. The composition of your team changes over time, but your solidarity is based on trust and mutual investment, which results in mutual benefit. All of you have to prioritize team success over individual glory and yet this is the best way to achieve individual success as well. You are going to bring together a disparate team and achieve a common goal -- despite the reality of personnel turnover. That's what all businesses should strive for. (Reid Hoffman, Ben Casnocha, Chris Yeh)
