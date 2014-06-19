@@ -12,4 +12,4 @@
  * When selling a company, always keep your business running and growing until it's really not your job anymore.
  * "A complex system that works is invariably found to have evolved from a simple system that works." (John Gall)
  * Advertising is like the flu. If it's not constantly changing, people develop immunity.
- * "Sizing the market for a disruptor based on an incumbent's market is like sizing the car industry off how many horses there were in 1910." ( Aaron Levie)
+ * "Sizing the market for a disruptor based on an incumbent's market is like sizing the car industry off how many horses there were in 1910." (Aaron Levie)
