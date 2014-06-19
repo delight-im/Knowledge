@@ -4,3 +4,4 @@
  * Never change the class name or package name of your default Activity that is started by the launcher. It will break home screen shortcuts. If you really need to change your default Activity's class name or package name, add an alias with the old name for compatibility.
  * Always create one keystore per app for signing your APKs. Otherwise, when selling an app, you'll have to hand over the shared keystore.
  * The ratio for Android's density buckets from `ldpi` to `xxxhdpi` is `3:4:6:8:12:16`.
+ * Apart from the normal `android:textColor`, you can also set `android:textColorHint`, `android:textColorLink` and `android:textColorHighlight` for a `TextView`.
