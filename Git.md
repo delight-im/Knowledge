@@ -89,3 +89,9 @@ To delete a local branch:
 To delete a remote branch:
 
 `git push origin :<REMOTE_BRANCH>`
+
+## Adding not only a title but also a description to a commit
+
+Just add another `-m <TEXT>` parameter to the commit command:
+
+`git commit -m '<TITLE>' -m '<DESCRIPTION>'`
