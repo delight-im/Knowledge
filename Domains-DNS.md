@@ -12,8 +12,8 @@
 ### Mails sent from Simple Hosting
 
 ```
-@ 10800 IN TXT "v=spf1 ip4:217.70.176.0/21 ip6:2001:4b98:c::/48 ip4:217.70.185.10 ip4:173.246.97.150 ptr ?all"
-@ 10800 IN SPF "v=spf1 ip4:217.70.176.0/21 ip6:2001:4b98:c::/48 ip4:217.70.185.10 ip4:173.246.97.150 ptr ?all"
+@ 10800 IN TXT "v=spf1 ip4:217.70.176.0/21 ip6:2001:4b98:c::/48 ip4:217.70.185.10 ip4:173.246.97.150 ip4:217.70.186.165 ptr ?all"
+@ 10800 IN SPF "v=spf1 ip4:217.70.176.0/21 ip6:2001:4b98:c::/48 ip4:217.70.185.10 ip4:173.246.97.150 ip4:217.70.186.165 ptr ?all"
 ```
 
 ### Adding the appropriate records to your DNS
