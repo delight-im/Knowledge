@@ -95,3 +95,11 @@ To delete a remote branch:
 Just add another `-m <TEXT>` parameter to the commit command:
 
 `git commit -m '<TITLE>' -m '<DESCRIPTION>'`
+
+## Remove all untracked files and directories from a repository
+
+To show a preview of what will be deleted:
+
+`git clean -ndf`
+
+In order to perform the actual deletion, just remove the leading `n` in the `-ndf` option.
