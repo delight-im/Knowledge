@@ -24,3 +24,4 @@
  * Always set your pages' charset, the same both in your server-side code and in your HTML markup. There are very few reasons not to use UTF-8.
  * Always set a favicon for your website. Users will see it in their tab lists and in their bookmarks, and will recognize your website.
  * Never store any credentials or secrets in your client-side code.
+* Black (`#000`) on white is never good, it makes for high contrast and is difficult to use. Possible alternatives include `#333`, `#545454`, `#141823` or `#292f33`
