@@ -40,3 +40,4 @@
  * "I am a great believer in luck, and I find the harder I work, the more I have of it." (Thomas Jefferson)
  * When you are teaching or explaining something, never say "just do" or "it's easy". It's confusing and alienating to new learners.
  * "Opportunists have always been held in disrepute -- especially by those who had the same opportunities and didn't take them." (Rhett Butler)
+ * "The journey of a thousand miles begins with a single step." (Laozi)
