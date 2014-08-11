@@ -4,6 +4,9 @@
  * When using a version control system, make a single commit for every bug fix or added feature. Do not hoard changes and commit them in batch.
  * Use an IDE that suits your programming language, e.g. IntelliJ IDEA (Java), PhpStorm (PHP), Eclipse (Android) or Android Studio (Android).
  * Commercial programming is solving problems you didn't choose, working on existing code you didn't write — in less time than you would like.
+ * Write short functions, with no more than 30-40 statements, if possible. Split up complex functions into smaller ones.
+ * Never write a `switch` statement without a `default` branch.
+ * Minimize the amount of state used in your programs. Stateless programs are the easiest to debug.
 
 ## Charsets and Encodings
 
