@@ -1,4 +1,4 @@
-# Android Development -- Keystores and APK Signing
+# Android development - Keystores and APK signing
 
 ## Requirements
 

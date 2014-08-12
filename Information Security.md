@@ -1,9 +1,9 @@
-# Information Security
+# Information security
 
  * Don't trust user input.
  * Don't do client-side only checks on information that is processed by the server.
  * Don't roll your own crypto(graphy). It must be designed by experts and undergo peer review.
- * "Most people don’t realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent." (Phil Zimmermann)
+ * "Most people don't realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent." (Phil Zimmermann)
 
 ## Two-factor authentication (2FA)
 

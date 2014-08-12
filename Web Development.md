@@ -1,4 +1,4 @@
-# Web Development
+# Web development
 
  * Always have three versions of your CSS stylesheet files: style.css, style.min.css (minified) and style.min.css.gz (minified + gzipped).
  * Always have three versions of your JavaScript files: script.js, script.min.js (minified) and script.min.js.gz (minified + gzipped).

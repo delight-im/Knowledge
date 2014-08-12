@@ -1,4 +1,4 @@
-# Software Development
+# Software development
 
  * Use a version control system like Git, Mercurial or Subversion to manage your source code, track changes and simplify collaboration.
  * When using a version control system, make a single commit for every bug fix or added feature. Do not hoard changes and commit them in batch.
