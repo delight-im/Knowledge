@@ -18,3 +18,18 @@
  * The main driver of inequality is returns on capital that exceed the rate of economic growth. (Thomas Piketty)
  * "Design depends largely on constraints. [O]ne of the few effective keys to the design problem [is] the ability of the designer to recognize as many of the constraints as possible — his willingness and enthusiasm for working within these constraints." (Charles Eames)
  * Project management triangle: Fast, cheap, and reliable — choose two. That's all you can get.
+ * "Focusing on the problem you want to solve will keep you from getting blinded by your enthusiasm for a single solution." (hatchery.io)
+
+## Validating your business ideas (online)
+
+Test whether there exists a certain problem and you have the solution that your target audience is willing to pay for. Don't ask your target audience what they want. *You* have to know what they might want and validate that idea.
+
+Four simple steps (hatchery.io):
+
+ 1. Talk to your potential customers about the problem in an informal setting and ask: "I believe [target group] has a problem/need achieving [goal] because [problem/need]. By [solution] we will help them to [benefit]. We will offer the solution for [pricing]. Are you interested?"
+ 2. Put together a landing page for the product that does not even exist yet and advertise it online, e.g. via Google AdWords. Just see if people are interested and perhaps get some email addresses of people who want to be notified on product launch.
+ 3. Built a minimum viable product (MVP): Offer your audience the solution they expected in the most simple and basic form that is possible.
+ 4. Get valuable insights, talk to your audience again and again, and find product/market fit — or dismiss your idea.
+
+ * Throughout the process, question hard whether the people you talk to are really representative of your target audience and whether they are willing and able to pay for it.
+ * If you can't get anybody to give you an email address, then you'll never get them to give you any money.
