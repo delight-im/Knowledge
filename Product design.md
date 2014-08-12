@@ -18,7 +18,7 @@ Four simple steps (hatchery.io):
  1. Talk to your potential customers about the problem in an informal setting and ask: "I believe [target group] has a problem/need achieving [goal] because [problem/need]. By [solution] we will help them to [benefit]. We will offer the solution for [pricing]. Are you interested?"
  2. Put together a landing page for the product that does not even exist yet and advertise it online, e.g. via Google AdWords. Just see if people are interested and perhaps get some email addresses of people who want to be notified on product launch.
  3. Built a minimum viable product (MVP): Offer your audience the solution they expected in the most simple and basic form that is possible.
- 4. Get valuable insights, talk to your audience again and again, and find product/market fit — or dismiss your idea.
+ 4. Get valuable insights, talk to your audience again and again, and find product/market fit â€” or dismiss your idea.
 
 Always remember:
 
