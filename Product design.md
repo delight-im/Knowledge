@@ -3,6 +3,8 @@
  * Sales is talking to a small number of people who are seriously interested in the product you're building. Marketing is talking to a broad audience that is generally indifferent. They're two ends of a spectrum.
  * Unless you are in one of the winner-takes-all markets (e.g. social networks), focus on the product first and only then on growth. Talk to early adopters individually and shape your product. If you fail to do so by advertising a mediocre product, you will not only have unsustainable growth (or none at all), but you will never get the feedback that you need to improve the product. You will have fewer users than expected and be blind to all your product's shortcomings.
  * "Focusing on the problem you want to solve will keep you from getting blinded by your enthusiasm for a single solution." (hatchery.io)
+ * "Requiring login or account creation too early in a site experience can be detrimental to conversion. [...] Before offering their personal information, users want to browse content and get a sense of what a site has to offer." (Pete LePage)
+ * "Offer the option to check out as a guest, and encourage registration with tangible benefits." (Pete LePage)
 
 ## Growth
 
