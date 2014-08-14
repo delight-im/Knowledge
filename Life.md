@@ -30,6 +30,7 @@
  * "Many of life's failures are people who did not realize how close they were to success when they gave up." (Thomas Edison)
  * "Everyone can be taught to sculpt: Michelangelo would have had to be taught not to. So it is with great people in all fields." (Unknown)
  * "Count your blessings, not your troubles." (Dale Carnegie)
+ * "Man only likes to count his troubles, but he does not count his joys." (Fyodor Dosteoevsky)
  * "Give a man a fish, and you feed him for a day; show him how to catch fish, and you feed him for a lifetime." (Proverb)
  * "I always wonder why birds stay in the same place when they can fly anywhere. Then I ask myself the same question." (Harun Yahya)
  * "People become what they believe themselves to be. If I believe I can't do something, it makes me incapable of doing it." (Mahatma Gandhi)
@@ -41,3 +42,4 @@
  * When you are teaching or explaining something, never say "just do" or "it's easy". It's confusing and alienating to new learners.
  * "Opportunists have always been held in disrepute -- especially by those who had the same opportunities and didn't take them." (Rhett Butler)
  * "The journey of a thousand miles begins with a single step." (Laozi)
+ * "Determination is really two separate things: resilience and drive. Resilience keeps you from being pushed backwards. Drive moves you forwards." (Jessica Livingston)
