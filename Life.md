@@ -44,3 +44,7 @@
  * "The journey of a thousand miles begins with a single step." (Laozi)
  * "Determination is really two separate things: resilience and drive. Resilience keeps you from being pushed backwards. Drive moves you forwards." (Jessica Livingston)
  * "[W]e see our future selves as strangers. Though we will inevitably share their fates, the people we will become in a decade, quarter century, or more, are unknown to us. This impedes our ability to make good choices on their — which of course is our own—behalf. [...] We might choose to procrastinate, and let some other version of our self deal with problems or chores. Or, as in the case of [a] smoking boy, we can focus on that version of our self that derives pleasure, and ignore the one that pays the price." (Alisa Opar)
+ * "Part of being optimistic is keeping one's head pointed toward the sun, one's feet moving forward. [...] I would not and could not give myself up to despair. That way lays defeat and death." (Nelson Mandela)
+ * "I learned that courage was not the absence of fear, but the triumph over it." (Nelson Mandela)
+ * "The greatest glory in living lies not in never falling, but in rising every time we fall." (Nelson Mandela)
+ * "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered." (Nelson Mandela)
