@@ -16,3 +16,19 @@
  * UTF-16 is a variable-width encoding that uses either 2 or 4 bytes for all Unicode symbols. It's incompatible with ASCII but optimized for the BMP, where it's fixed-width and uses 2 bytes for every character. For all characters outside of the BMP, UTF-16 uses a pair of 2-byte codes. UTF-16 is the predominant encoding for internal representations of characters, such as in Windows, Java, JavaScript etc.
  * UTF-32 is a fixed-width encoding that uses exactly 4 bytes to represent a Unicode symbol. This makes it bloated but fast to operate on. It's incompatible with ASCII.
  * UCS-2 is the predecessor to UTF-16 and provides a fixed-width encoding for the BMP symbols in a 16-bit code unit. For the BMP, i.e. `0` to `0xFFFF`, it is equivalent to UTF-16.
+
+## Effort estimations
+
+ * Effort estimations in software development are really hard and usually turn out to be over-optimistic.
+ * You can make good estimations only if you can split up your project into small tasks that are known and have been done many times before, i.e. standard tasks. But such tasks are rare in software development because you can re-use and automate things -- and thus you only have those standard tasks if you've failed to re-use and automate.
+ * In most cases, you have noisy input, high variability in individual tasks and a high degree of uncertainty.
+ * You need effort estimations whenever you want to communicate with other departments, clients or other companies.
+ * Read "Software Estimation: Demystifying the Black Art" by Steve McConnell.
+ * People are not good at absolute measurements but they're good at comparing things.
+ * You have to consider design, implementation and testing.
+ * "Work expands so as to fill the time available for its completion." (Parkinson's law)
+
+## Reliability
+
+ * 100% uptime or availability does not exist.
+ * You'll usually want to promise as many "9s" of uptime as possible, e.g. the "five 9s" (99.999%).
