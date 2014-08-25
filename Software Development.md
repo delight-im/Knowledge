@@ -32,3 +32,36 @@
 
  * 100% uptime or availability does not exist.
  * You'll usually want to promise as many "9s" of uptime as possible, e.g. the "five 9s" (99.999%).
+
+## Data representation
+
+### Plain text
+
+ * The content is a pure sequence of character codes and thus readable as textual material without much processing.
+ * Plain text represents characters only, not their appearance.
+ * Represented through an encoding, e.g. ASCII or UTF-8.
+ * Largely portable and immune to computer architecture incompatibilities.
+ * Content can be read and modified with countless generic text editors and utilities.
+
+#### Line breaks
+
+ * Also called "newlines", "line endings" or "end of line" ("EOL").
+ * Encoded as a control character or a sequence thereof.
+ * Control characters vary across operating systems. This means that documents must be converted between newline representations for exchange.
+ * By analogy with old typewriters and printers, the two concepts "line feed" ("LF") and "carriage return" ("CR") have been established.
+ * A line feed advances the paper to the next line.
+ * A carriage return positions the device at the beginning of the line by sliding the carriage.
+ * Unix and Unix-like systems encode newlines as LF (`\n`).
+ * Old versions of Mac OS encode newlines as CR (`\r`).
+ * Microsoft Windows encodes newlines as CR+LF (`\r\n`).
+
+### Formatted text
+
+ * Formatted text is also called "rich text".
+ * Formatted text does not only contain the actual text information but also styling information such as colors, font sizes, tables, hyperlinks, etc.
+ * In order to read formatted text, you need special software. Usually, this is the program that you wrote the text with. But it can be any other compatible software as well.
+ * Software that writes formatted text may save the styling information either as textual markup (e.g. Markdown, RTF) or as binary data (e.g. PDF, Microsoft Word).
+
+### Binary
+
+ * Parts of the content must be interpreted as binary objects, i.e. they must be decoded to be readable. This is common for photos, videos, music, etc.
