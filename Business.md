@@ -18,3 +18,6 @@
  * The main driver of inequality is returns on capital that exceed the rate of economic growth. (Thomas Piketty)
  * "Design depends largely on constraints. [O]ne of the few effective keys to the design problem [is] the ability of the designer to recognize as many of the constraints as possible — his willingness and enthusiasm for working within these constraints." (Charles Eames)
  * Project management triangle: Fast, cheap, and reliable — choose two. That's all you can get.
+ * Incentivizing the right behaviors is incredibly important. Rewarding managers with bonuses if their features are part of a final product, for example, can lead to feature bloat. Don't do that.
+ * "[W]hile manipulating people with incentives seems to work in the short run, it is a strategy that ultimately fails and even does lasting harm. [We should] question our reliance on a theory of motivation derived from laboratory animals." (Alfie Kohn)
+ * "[T]he more we use artificial inducements to motivate people, the more they lose interest in what we're bribing them to do." (Alfie Kohn)
