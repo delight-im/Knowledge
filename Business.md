@@ -21,3 +21,6 @@
  * Incentivizing the right behaviors is incredibly important. Rewarding managers with bonuses if their features are part of a final product, for example, can lead to feature bloat. Don't do that.
  * "[W]hile manipulating people with incentives seems to work in the short run, it is a strategy that ultimately fails and even does lasting harm. [We should] question our reliance on a theory of motivation derived from laboratory animals." (Alfie Kohn)
  * "[T]he more we use artificial inducements to motivate people, the more they lose interest in what we're bribing them to do." (Alfie Kohn)
+ * "Start with focusing on a small market and dominate that market first." (Peter Thiel)
+ * "If you don't want to split shares evenly then perhaps you should not be co-founders." (Peter Thiel)
+ * "I am [...] a fan of the two-person founding team, with one more on the business side and one more on the technical side." (Peter Thiel)
