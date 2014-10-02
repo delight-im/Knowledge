@@ -24,3 +24,4 @@
  * "Start with focusing on a small market and dominate that market first." (Peter Thiel)
  * "If you don't want to split shares evenly then perhaps you should not be co-founders." (Peter Thiel)
  * "I am [...] a fan of the two-person founding team, with one more on the business side and one more on the technical side." (Peter Thiel)
+ * "We know well we haven't survived because our strategies are farsighted and brilliant, or because our execution is perfect, but because for 15 years we have persevered in our mission of 'making it easier to do business across the world', because we have insisted on a 'customer first' value system, because we have persisted in believing in the future, and because we have insisted that normal people can do extraordinary things." (Jack Ma on Alibaba)
