@@ -23,3 +23,23 @@ You can safely reference the AngularJS JavaScript file from the end of `<body />
 Whenever you're using HTML tags with an ID or `<label for="..."></label>` inside `ng-repeat`, append `{{$index}}` to the ID reference in HTML to make sure it is always unique.
 
 If you have nested `ng-repeat` directives, you may use `{{$parent.$index}}` as well to access the index of the outer `ng-repeat`.
+
+## Binding to primitives inside `ng-repeat`
+
+You cannot bind to primitives directly in `ng-repeat`:
+
+```
+// { names: [ "John", "Jane" ] }
+<div ng-repeat="name in names">
+	<input type="text" ng-model="name" />
+</div>
+```
+
+Instead, you have to reference the value using the parent and the index:
+
+```
+// { names: [ "John", "Jane" ] }
+<div ng-repeat="name in names">
+	<input type="text" ng-model="names[$index]" />
+</div>
+```
