@@ -4,6 +4,9 @@
  * Always use `===` and `!==` instead of `==` and `!=`.
  * When using `for ... in` loops, always filter the contents with `hasOwnProperty` first.
  * For anonymous functions, add a space between the `function` keyword and the parentheses, e.g. `this.someFunc = function () { ... };`
+ * Use `unshift(...)` to *add* an element to the beginning of an array. Use `shift()` to *remove and return* the first element from there.
+ * Use `push(...)` to *add* an element to the end of an array. Use `pop()` to *remove and return* the first element from there.
+ * There are (at least) two ways to cause a redirect: If you want to simulate someone clicking a link, use `window.location.href = "..."`. If you want to simulate a HTTP redirect, use `window.location.replace("...")`.
 
 # "Static classes" in JavaScript for namespaced utilities
 
