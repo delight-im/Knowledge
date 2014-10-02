@@ -1,6 +1,6 @@
 # Knowledge
 
-Collection of how-tos, notes and tricks
+Random pieces of knowledge — with anecdotes and quotes
 
 ## License
 
