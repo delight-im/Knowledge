@@ -4,6 +4,7 @@
  * Don't do client-side only checks on information that is processed by the server.
  * Don't roll your own crypto(graphy). It must be designed by experts and undergo peer review.
  * "Most people don't realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent." (Phil Zimmermann)
+ * "You can't build a 'back door' that only the good guys can walk through. Encryption protects against cybercriminals, industrial competitors, the Chinese secret police and the FBI. You're either vulnerable to eavesdropping by any of them, or you're secure from eavesdropping from all of them." (Bruce Schneier)
 
 ## Two-factor authentication (2FA)
 
