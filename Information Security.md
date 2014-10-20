@@ -6,6 +6,22 @@
  * "Most people don't realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent." (Phil Zimmermann)
  * "You can't build a 'back door' that only the good guys can walk through. Encryption protects against cybercriminals, industrial competitors, the Chinese secret police and the FBI. You're either vulnerable to eavesdropping by any of them, or you're secure from eavesdropping from all of them." (Bruce Schneier)
 
+## SSL/TLS
+
+### CSR (Certificate Signing Request)
+
+#### Generating with OpenSSL
+
+```
+openssl req -nodes -newkey rsa:2048 -sha256 -keyout private.key -out public.csr
+```
+
+You will be asked to enter responses to several questions. Of those, you should at least answer the following:
+
+ * `Common Name`: the domain name that you want to protect (must be an exact match), e.g. `www.example.org`
+ * `Organization Name`: the owner's (full legal) name, e.g. `MyCompany, Inc.`
+ * `Organization Unit`: `IT`
+
 ## Two-factor authentication (2FA)
 
 ### Clock out of sync causing two-factor authentication to fail
