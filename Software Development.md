@@ -7,6 +7,8 @@
  * Write short functions, with no more than 30-40 statements, if possible. Split up complex functions into smaller ones.
  * Never write a `switch` statement without a `default` branch.
  * Minimize the amount of state used in your programs. Stateless programs are the easiest to debug.
+ * "In fact, I'm a huge proponent of designing your code around the data, rather than the other way around, and I think it's one of the reasons git has been fairly successful [...]. I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships." (Linus Torvalds / 2006-06-27 / Message to the Git mailing list)
+ * "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious." (Fred Brooks / 1995 / The Mythical Man-Month / Chapter 9)
 
 ## Charsets and Encodings
 
