@@ -52,3 +52,4 @@
  * McDonald's Theory: "[W]hen we're trying to decide where to eat for lunch and no one has any ideas, I recommend McDonald's. An interesting thing happens. Everyone unanimously agrees that we can't possibly go to McDonald's, and better lunch suggestions emerge. [...] It's as if we've broken the ice with the worst possible idea. [...] [P]eople are inspired to come up with good ideas to ward off bad ones. [...] The second step is easier than the first." (Jon Bell)
  * "Wise men learn more from fools than fools from the wise." (Cato the Elder)
  * "Have the argument clear in your mind; the words will follow naturally." (Cato the Elder)
+ * "We pave the sunlit path toward justice together, brick by brick." (Tim Cook)
