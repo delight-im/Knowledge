@@ -9,6 +9,7 @@
  * You can take a photo of the full screen by pressing the `Print` button (screen capture). Afterwards, paste the image (`Ctrl+V`) somewhere.
  * For basic graphics editing, the free Paint.NET is very good. For more complex work, try the free Gimp or commercial Adobe Photoshop.
  * In order to pack and unpack collections of files or archives, use the free 7-Zip.
+ * In order to start the command prompt for a certain location quickly, just navigate to the desired folder in `Explorer`. Then press `Shift` and right-click on the background of the `Explorer` window. You should be able to launch the command prompt by clicking `Open command window here` then.
 
 ## Keyboard shortcuts
 
