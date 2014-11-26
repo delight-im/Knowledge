@@ -26,3 +26,7 @@
  * "I am [...] a fan of the two-person founding team, with one more on the business side and one more on the technical side." (Peter Thiel)
  * "We know well [Alibaba hasn't] survived because our strategies are farsighted and brilliant, or because our execution is perfect, but because for 15 years we have persevered in our mission of 'making it easier to do business across the world', because we have insisted on a 'customer first' value system, because we have persisted in believing in the future, and because we have insisted that normal people can do extraordinary things." (Jack Ma)
  * The only way to fight knowledge-hiding in the workplace? "Put in incentives to reward people on team outcomes versus solely on individual outcomes." (David Zweig)
+ * "First-time founders care most about their exit. Every time after that, you focus on legacy." (Unknown)
+ * "Culture eats strategy for breakfast." (Peter Drucker)
+ * "Saying yes is so much easier than saying no, but nobody else will ever value your time as much as you do so you need to be a responsible steward of it." (Andrew Bosworth)
+ * "Look back on your past week and assemble an honest accounting of your attention. Does the time you spent in each area mirror the importance of that area? This exercise is the true test of your ability to prioritize. It will tell you whether you are able to maintain focus on the important or whether you get distracted by the urgent." (Andrew Bosworth)
