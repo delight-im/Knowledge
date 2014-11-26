@@ -103,3 +103,21 @@ To show a preview of what will be deleted:
 `git clean -ndf`
 
 In order to perform the actual deletion, just remove the leading `n` in the `-ndf` option.
+
+## Show the log in a short version
+
+`git log --pretty=oneline --abbrev-commit`
+
+## Create a branch
+
+In order to create a new branch but stay in the current branch:
+
+`git branch <BRANCH_NAME>`
+
+In order to create a new branch and automatically switch to that new branch:
+
+`git checkout -b <BRANCH_NAME>`
+
+## Switch to another branch
+
+`git checkout <BRANCH_NAME>`
