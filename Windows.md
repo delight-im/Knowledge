@@ -10,6 +10,7 @@
  * For basic graphics editing, the free Paint.NET is very good. For more complex work, try the free Gimp or commercial Adobe Photoshop.
  * In order to pack and unpack collections of files or archives, use the free 7-Zip.
  * In order to start the command prompt for a certain location quickly, just navigate to the desired folder in `Explorer`. Then press `Shift` and right-click on the background of the `Explorer` window. You should be able to launch the command prompt by clicking `Open command window here` then.
+ * If you want to have a file name start with a dot (`.`), it works only if you add another dot at the end of the file name as well. The trailing dot will be removed automatically.
 
 ## Keyboard shortcuts
 
@@ -28,3 +29,7 @@
  * `Win` + `D`: switch to the desktop
  * `Win` + `L`: lock the computer
  * `Ctrl` + `Alt` + `Del`: open the task manager (e.g. to force an application to be closed)
+
+## PowerShell
+
+ * Run `ii .` or `explorer.exe .` to open an explorer window for the current directory.
