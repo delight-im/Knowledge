@@ -11,6 +11,11 @@
  * "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious." (Fred Brooks / 1995 / The Mythical Man-Month / Chapter 9)
  * Readability is the most important characteristic of a codebase.
  * Beginners should start with a scripting languages as their first programming language, e.g. Python or JavaScript. These have a higher level of abstraction and let the learner understand the bigger picture instead of having to worry about all the details right from the start.
+ * "Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it." (Alan J. Perlis)
+ * "Treat new technology with healthy scepticism. Be wary about pushing that cool new [library] into production. Wait until something is commonly used, has lots of bugfixes and is generally proven beyond doubt to be mature." (Jimmy Breck-McKye)
+ * "Prefer dedicated libraries to monolithic frameworks. When you choose a framework, you make a large, long term committment. You sign up to learn about the framework's various inner workings and strange behaviours. You also sign up to a period of ineffectiveness whilst you're getting to grips with things. If the framework turns out to be the wrong bet, you lose a lot. But if you pick and choose from libraries, you can afford to replace one part of your front end stack whilst retaining the rest." (Jimmy Breck-McKye)
+ * GPS is described to have an accuracy of less than 100m, but usually it is even between 2m and 30m.
+ * You should let your method names start with a verb in most cases. Examples for arbitrary return types (or none at all) are: `getXxx()`, `setXxx()`, `createXxx()`, `calculateXxx()`, `changeXxx()`, `deleteXxx()`, `removeXxx()`, `startXxx()`, `stopXxx()`, `retrieveXxx()`, `convertXxx()` or `cancelXxx()`. Examples for methods returning `boolean` are `isXxx()` and `hasXxx`. Notable exceptions are conversions, where you'd often want to use `toXxx()` or `XxxToYyy()`, and methods where nouns are commonly used, such as `length()` or `size()`.
 
 ## Charsets and Encodings
 
