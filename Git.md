@@ -1,5 +1,41 @@
 # Git
 
+## Windows
+
+### Setting up your identity
+
+Before creating any commits in Git, you should first set your identity in the configuration. This is important because this information will be immutably written into every single commit. Apart from that, note that this information is public.
+
+```
+git config --global user.name "<YOUR_NAME>"
+git config --global user.email <YOUR_EMAIL_ADDRESS>
+```
+
+Example:
+
+```
+git config --global user.name "John Doe"
+git config --global user.email john.doe@example.org
+```
+
+### Remembering (caching) passwords for HTTPS
+
+When cloning repositories over HTTPS, you authenticate via usernames and passwords, compared to SSH keys for usage over SSH. If you want to let Git remember passwords, run the following command:
+
+`git config --global credential.helper wincred`
+
+### Handling line endings correctly
+
+You'll probably want Git to convert line endings to the native Windows line endings (CRLF) on checkout and convert back to simple LF when pushing changes. Define this in the configuration like this:
+
+`git config --global core.autocrlf true`
+
+### Checking your settings
+
+Run the following command to see all your settings and check if they are correct:
+
+`git config --list`
+
 ## Update a forked repository (sync with the original again)
 
  1. The first time only, execute the following command to add the forked repository ("upstream") as a remote, otherwise skip it
