@@ -24,3 +24,4 @@
  * Always set your pages' charset, the same both in your server-side code and in your HTML markup. There are very few reasons not to use UTF-8.
  * Always set a favicon for your website. Users will see it in their tab lists and in their bookmarks, and will recognize your website.
  * Never store any credentials or secrets in your client-side code.
+ * Enabling SSL/TLS on your site may cut your AdSense revenue in half because Google cannot show ads from any non-HTTPS ad server.
