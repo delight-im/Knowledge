@@ -16,11 +16,11 @@ WHERE
 		LineString(
 			Point(
 				$lat - $radius / 111.133,
-				$lon - $radius / 111.320 * COS(RADIANS($lat))
+				$lon - $radius / 111.320 / COS(RADIANS($lat))
 			),
 			Point(
 				$lat + $radius / 111.133,
-				$lon + $radius / 111.320 * COS(RADIANS($lat))
+				$lon + $radius / 111.320 / COS(RADIANS($lat))
 			)
 		),
 		point_column
@@ -33,5 +33,5 @@ In order to calculate an approximation of the distance between the `Point` in `p
 
 ```
 SELECT
-	SQRT(POW((X(point_column) - $lat) * 111.133, 2) + POW((Y(point_column) - $lon) * 111.320 / COS(RADIANS($lat)), 2)) AS distance
+	SQRT(POW((X(point_column) - $lat) * 111.133, 2) + POW((Y(point_column) - $lon) * 111.320 * COS(RADIANS($lat)), 2)) AS distance
 ```
