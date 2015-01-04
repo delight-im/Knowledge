@@ -11,6 +11,7 @@
  * In order to pack and unpack collections of files or archives, use the free 7-Zip.
  * In order to start the command prompt for a certain location quickly, just navigate to the desired folder in `Explorer`. Then press `Shift` and right-click on the background of the `Explorer` window. You should be able to launch the command prompt by clicking `Open command window here` then.
  * If you want to have a file name start with a dot (`.`), it works only if you add another dot at the end of the file name as well. The trailing dot will be removed automatically.
+ * In order to create a file without a file extension (e.g. `LICENSE`), just type the desired file name and append a trailing dot. The void in the place of the file extension causes the file to be created without an extension.
 
 ## Keyboard shortcuts
 
