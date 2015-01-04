@@ -30,3 +30,5 @@
  * "Culture eats strategy for breakfast." (Peter Drucker)
  * "Saying yes is so much easier than saying no, but nobody else will ever value your time as much as you do so you need to be a responsible steward of it." (Andrew Bosworth)
  * "Look back on your past week and assemble an honest accounting of your attention. Does the time you spent in each area mirror the importance of that area? This exercise is the true test of your ability to prioritize. It will tell you whether you are able to maintain focus on the important or whether you get distracted by the urgent." (Andrew Bosworth)
+ * In 2014, social media (e.g. Facebook, Twitter) had already become a mature market with little innovation. Private messaging (e.g. WhatsApp, Snapchat) was the new social media.
+ * The "sharing economy" turned out to be the "rental economy", actually.
