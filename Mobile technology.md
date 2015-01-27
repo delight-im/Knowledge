@@ -1,0 +1,3 @@
+# Mobile technology
+
+ * Every feature phone, smartphone -- or even tablets with 3G, LTE, etc. -- has a baseband processor that runs proprietary, closed software. That software implements standards and uses code from the '80s and '90s. Thus it has weak security measures, is missing a lot of checks and often trusts data received from base stations blindly, resulting in the presence of many bugs and vulnerabilities -- over the air! It is often possible to enable auto-answer, turn on microphones or cameras, send SMS or execute arbitrary code. But this component of modern devices is not only poorly understood and really low-level, it does also require certification and is protected by lots of patents.
