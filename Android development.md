@@ -7,6 +7,7 @@
  * Apart from the normal `android:textColor`, you can also set `android:textColorHint`, `android:textColorLink` and `android:textColorHighlight` for a `TextView`.
  * When using an `ListView` or `GridView` (or any other `AbsListView`) and the `Adapter` has items of varying height, you must set `android:smoothScrollbar="false"` on the `View` in XML. While the scrollbar will not run smoothly anymore, it will have a fixed height and doesn't change its size all the time anymore.
  * If you want to make the background of a `View` transparent, either for design or performance reasons, use `android:background="@null"` in XML or `View.setBackgroundDrawable(null)` in Java.
+ * When adding new permissions into permission groups that have already been accepted by the user, Google Play will not require the user to review the new permissions. [In the Android source code](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml), you can look up which permissions belong to the same groups. Just search for the `<permission android:name="<PERMISSION_NAME>"` string and check the `android:permissionGroup` attribute.
 
 ## Keystores and APK signing
 
