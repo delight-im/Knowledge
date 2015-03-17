@@ -16,6 +16,7 @@
  * "Prefer dedicated libraries to monolithic frameworks. When you choose a framework, you make a large, long term committment. You sign up to learn about the framework's various inner workings and strange behaviours. You also sign up to a period of ineffectiveness whilst you're getting to grips with things. If the framework turns out to be the wrong bet, you lose a lot. But if you pick and choose from libraries, you can afford to replace one part of your front end stack whilst retaining the rest." (Jimmy Breck-McKye)
  * GPS is described to have an accuracy of less than 100m, but usually it is even between 2m and 30m.
  * You should let your method names start with a verb in most cases. Examples for arbitrary return types (or none at all) are: `getXxx()`, `setXxx()`, `createXxx()`, `calculateXxx()`, `changeXxx()`, `deleteXxx()`, `removeXxx()`, `startXxx()`, `stopXxx()`, `retrieveXxx()`, `convertXxx()` or `cancelXxx()`. Examples for methods returning `boolean` are `isXxx()` and `hasXxx`. Notable exceptions are conversions, where you'd often want to use `toXxx()` or `XxxToYyy()`, and methods where nouns are commonly used, such as `length()` or `size()`.
+ * Many open source projects that are part of the foundation of modern operating systems and the internet are maintained by a single developer or by a very small team and receive only few donations. Such projects include GnuPG by Werner Koch, the Bash shell by Chet Ramey, NTP by Harlan Stenn and OpenSSL.
 
 ## Charsets and Encodings
 
