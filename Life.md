@@ -53,3 +53,7 @@
  * "Wise men learn more from fools than fools from the wise." (Cato the Elder)
  * "Have the argument clear in your mind; the words will follow naturally." (Cato the Elder)
  * "We pave the sunlit path toward justice together, brick by brick." (Tim Cook)
+ * "In the realm of ideas everything depends on enthusiasm ... in the real world all rests on perseverance." (Johann Wolfgang von Goethe)
+ * "Perseverance is the hard work you do after you get tired of doing the hard work you already did." (Newt Gingrich)
+ * "Perseverance is failing 19 times and succeeding the 20th." (Julie Andrews)
+ * "No one succeeds without effort ... Those who succeed owe their success to perseverance." (Ramana Maharshi)
