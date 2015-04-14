@@ -32,3 +32,5 @@
  * "Look back on your past week and assemble an honest accounting of your attention. Does the time you spent in each area mirror the importance of that area? This exercise is the true test of your ability to prioritize. It will tell you whether you are able to maintain focus on the important or whether you get distracted by the urgent." (Andrew Bosworth)
  * In 2014, social media (e.g. Facebook, Twitter) had already become a mature market with little innovation. Private messaging (e.g. WhatsApp, Snapchat) was the new social media.
  * The "sharing economy" turned out to be the "rental economy", actually.
+ * "If you don't have first hand experience of an industry, you're probably wrong about how it works, what problems they have and so how they should be solved. Talk to people." (Ben Dixon)
+ * "Trying to raise money and apply to accelerators is a full time job. You're probably either building [a product] or fund raising. Not both. If in doubt, choose building." (Ben Dixon)
