@@ -17,6 +17,9 @@
  * GPS is described to have an accuracy of less than 100m, but usually it is even between 2m and 30m.
  * You should let your method names start with a verb in most cases. Examples for arbitrary return types (or none at all) are: `getXxx()`, `setXxx()`, `createXxx()`, `calculateXxx()`, `changeXxx()`, `deleteXxx()`, `removeXxx()`, `startXxx()`, `stopXxx()`, `retrieveXxx()`, `convertXxx()` or `cancelXxx()`. Examples for methods returning `boolean` are `isXxx()` and `hasXxx`. Notable exceptions are conversions, where you'd often want to use `toXxx()` or `XxxToYyy()`, and methods where nouns are commonly used, such as `length()` or `size()`.
  * Many open source projects that are part of the foundation of modern operating systems and the internet are maintained by a single developer or by a very small team and receive only few donations. Such projects include GnuPG by Werner Koch, the Bash shell by Chet Ramey, NTP by Harlan Stenn and OpenSSL.
+ * Singletons are better than purely static classes in that they can implement interfaces, be treated as a normal object and be passed to other methods as a parameter.
+ * Dependency Injection is where components get their dependencies through their constructors or methods instead of creating the instances themselves. It makes testing much easier because it lets you mock and replace the dependencies.
+ * "'Dependency Injection' is a 25-dollar term for a 5-cent concept." (James Shore)
 
 ## Charsets and Encodings
 
