@@ -1,0 +1,6 @@
+# Job interviews
+
+ * The impression made in the first 10 seconds of a job interview can predict the outcome of the interview. As an interviewer, we spend the rest of the interview trying to confirm our initial impression by looking for more reasons that support our judgement. This makes job interviews less efficient.
+ * "Performance on [brainteasers] is at best a discrete skill that can be improved through practice, eliminating their utility for assessing candidates. At worst, they rely on some trivial bit of information or insight that is withheld from the candidate, and serve primarily to make the interviewer feel clever and self-satisfied. They have little if any ability to predict how candidates will perform in a job." (Laszlo Bock)
+ * "The best predictor of how someone will perform in a job is a work sample test (29 percent). This entails giving candidates a sample piece of work, similar to that which they would do in the job, and assessing their performance at it." (Laszlo Bock)
+ * "The second-best predictors of performance are tests of general cognitive ability (26 percent). In contrast to case interviews and brainteasers, these are actual tests with defined right and wrong answers, similar to what you might find on an IQ test." (Laszlo Bock)
