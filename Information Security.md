@@ -8,6 +8,8 @@
 
 ## SSL/TLS
 
+ * If you have problems establishing an SSL connection from a single device while other devices are working, check your system time. SSL verification depends on proper time settings in the operating system.
+
 ### CSR (Certificate Signing Request)
 
 #### Generating with OpenSSL
