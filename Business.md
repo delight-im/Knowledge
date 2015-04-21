@@ -34,3 +34,4 @@
  * The "sharing economy" turned out to be the "rental economy", actually.
  * "If you don't have first hand experience of an industry, you're probably wrong about how it works, what problems they have and so how they should be solved. Talk to people." (Ben Dixon)
  * "Trying to raise money and apply to accelerators is a full time job. You're probably either building [a product] or fund raising. Not both. If in doubt, choose building." (Ben Dixon)
+ * Providing free returns to customers in e-commerce has proved profitable. Customers who make use of a free return are far more likely to buy again in the same shop the next time. This easily compensates for the costs of the free return.
