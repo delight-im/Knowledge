@@ -25,3 +25,5 @@
  * Always set a favicon for your website. Users will see it in their tab lists and in their bookmarks, and will recognize your website.
  * Never store any credentials or secrets in your client-side code.
  * Enabling SSL/TLS on your site may cut your AdSense revenue in half because Google cannot show ads from any non-HTTPS ad server.
+ * You should check [whether Google thinks you're web pages are mobile-optimized](https://www.google.com/webmasters/tools/mobile-friendly/) because such pages receive a ranking boost in Google's search results on mobile devices.
+ * Read [Google's guidelines for mobile-optimized websites](https://developers.google.com/webmasters/mobile-sites/mobile-seo/) to see what you can do to ensure a great mobile experience on your website.
