@@ -1,5 +1,7 @@
 # Psychology
 
+ * "[H]appiness [is] the most attractive female emotion expression, and one of the least attractive in males. In contrast, pride show[s] the reverse pattern; it [is] the most attractive male expression, and one of the least attractive in women." (Jessica L. Tracy and Alec T. Beall)
+
 ## Social psychology
 
  * Milgram experiment
