@@ -1,6 +1,7 @@
 # Law
 
  * Copyright protects the expression of an idea, not the idea itself. The idea itself may be protected through patents.
+ * "The idea that I can be presented with a problem, set out to logically solve it with the tools at hand, and wind up with a program that could not be legally used because someone else followed the same logical steps some years ago and filed for a patent on it is horrifying." (John Carmack)
 
 ## Software
 
