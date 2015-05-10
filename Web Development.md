@@ -27,3 +27,9 @@
  * Enabling SSL/TLS on your site may cut your AdSense revenue in half because Google cannot show ads from any non-HTTPS ad server.
  * You should check [whether Google thinks you're web pages are mobile-optimized](https://www.google.com/webmasters/tools/mobile-friendly/) because such pages receive a ranking boost in Google's search results on mobile devices.
  * Read [Google's guidelines for mobile-optimized websites](https://developers.google.com/webmasters/mobile-sites/mobile-seo/) to see what you can do to ensure a great mobile experience on your website.
+ * Always add `rel="nofollow"` to links in user-generated content to make spam useless to the spammers.
+ * You may put static content up on a separate domain (*not* a subdomain) without cookies to speed up delivery of content.
+ * Use HTTP caching (e.g. via the `Cache-Control` header) and understand what to cache and what *not* to cache. Usually, you'll want to cache media files, CSS and JavaScript resources. This will help you improve page load times and save bandwidth.
+ * *Never* trust user input, i.e. you must always filter, validate or escape it.
+ * Make as few separate HTTP request as possible.
+ * Always put CSS and JavaScript code into separate files (from the HTML) so that they can be cached.
