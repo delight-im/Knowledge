@@ -57,3 +57,4 @@
  * "Perseverance is the hard work you do after you get tired of doing the hard work you already did." (Newt Gingrich)
  * "Perseverance is failing 19 times and succeeding the 20th." (Julie Andrews)
  * "No one succeeds without effort ... Those who succeed owe their success to perseverance." (Ramana Maharshi)
+ * "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." (Antoine de Saint-Exupéry)
