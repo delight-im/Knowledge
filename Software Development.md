@@ -20,6 +20,24 @@
  * Singletons are better than purely static classes in that they can implement interfaces, be treated as a normal object and be passed to other methods as a parameter.
  * Dependency Injection is where components get their dependencies through their constructors or methods instead of creating the instances themselves. It makes testing much easier because it lets you mock and replace the dependencies.
  * "'Dependency Injection' is a 25-dollar term for a 5-cent concept." (James Shore)
+ * A "yoda condition" is a programming style where you write parts of an expression or statement in reverse order. The typical example is `if (42 == myVariable)` which is to prevent an accidental assignment in the expression. Some languages do not allow an assignment in a condition so that this style of writing has no advantage there. A general disadvantage is the decreased readability of the code. A variation is `"myString".equals(myVariableWhichCanBeNull)` to handle unsafe null behavior easily. This style of writing may have the downside that null pointers are effectively hidden and can occur at other unexpected places.
+ * "Pokémon exception handling" is when you always catch *all* exceptions at once as in `try { ... } catch (Exception e) { ... }`.
+ * Your code is "stringly typed" when you rely on strings too often instead of choosing more appropriate types.
+ * Code is called "hydra code" when it can't be fixed because for every correction, there are two new bugs that appear.
+ * When there is a problem that is not reproducible and has been by very few people only, you call this a "Nessiebug" or "Bugfoot".
+ * You have "Jenga code" when the whole program collapses as soon as you touch a single block of code.
+ * If you do "fear-driven development" in your company, that's because management tries to add more and more pressure (e.g. layoffs) to achieve the project's goals.
+ * A "god object" is an instance (or its class) that either contains too much information or has too many tasks. Therefore, it is an anti-pattern which should be avoided.
+ * "Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law." (Douglas Hofstadter)
+ * "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." (Tom Cargill)
+ * "Walking on water and developing software from a specification are easy if both are frozen." (Edward V. Berard)
+ * "There are only two kinds of languages: the ones people complain about and the ones nobody uses." (Bjarne Stroustrup)
+ * "Computer Science is no more about computers than astronomy is about telescopes." (Edsger W. Dijkstra)
+ * "Debugging is anticipated with distaste, performed with reluctance, and bragged about forever." (Dan Kaminsky)
+ * "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." (Unknown)
+ * Comments should explain the *why* and not the *what*.
+ * Delete code that isn't being used (and do not just comment it out). That's what version control systems are for.
+ * "Weeks of coding can save you hours of planning." (Unknown)
 
 ## Charsets and Encodings
 
