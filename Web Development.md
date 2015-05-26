@@ -33,3 +33,7 @@
  * *Never* trust user input, i.e. you must always filter, validate or escape it.
  * Make as few separate HTTP request as possible.
  * Always put CSS and JavaScript code into separate files (from the HTML) so that they can be cached.
+
+## RESTful APIs
+
+ * Whenever you have successfully created a new resource via `POST`, send a `201 Created` response code and a `Location` header specifying where new new resource is located.
