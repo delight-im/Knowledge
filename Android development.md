@@ -3,11 +3,12 @@
  * Use the `Linkify` class or any `TextView`'s `autoLink` attribute to make links, email addresses and phone numbers clickable in your `TextView`.
  * Never change the class name or package name of your default Activity that is started by the launcher. It will break home screen shortcuts. If you really need to change your default Activity's class name or package name, add an alias with the old name for compatibility.
  * Always create one keystore per app for signing your APKs. Otherwise, when selling an app, you'll have to hand over the shared keystore.
- * The ratio for Android's density buckets from `ldpi` to `xxxhdpi` is `3:4:6:8:12:16`.
+ * The ratio for Android's density buckets from `ldpi` to `*hdpi` is `3:4:6:8:12:16`.
  * Apart from the normal `android:textColor`, you can also set `android:textColorHint`, `android:textColorLink` and `android:textColorHighlight` for a `TextView`.
  * When using an `ListView` or `GridView` (or any other `AbsListView`) and the `Adapter` has items of varying height, you must set `android:smoothScrollbar="false"` on the `View` in XML. While the scrollbar will not run smoothly anymore, it will have a fixed height and doesn't change its size all the time anymore.
  * If you want to make the background of a `View` transparent, either for design or performance reasons, use `android:background="@null"` in XML or `View.setBackgroundDrawable(null)` in Java.
  * When adding new permissions into permission groups that have already been accepted by the user, Google Play will not require the user to review the new permissions. [In the Android source code](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml), you can look up which permissions belong to the same groups. Just search for the `<permission android:name="<PERMISSION_NAME>"` string and check the `android:permissionGroup` attribute.
+ * If you want to find all URLs in your custom code, search for the regex `:\/\/(?!schemas\.android\.com|www\.w3\.org|ns\.adobe.com)`.
 
 ## Keystores and APK signing
 
