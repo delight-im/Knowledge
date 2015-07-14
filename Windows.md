@@ -35,3 +35,7 @@
 ## PowerShell
 
  * Run `ii .` or `explorer.exe .` to open an explorer window for the current directory.
+
+## Java
+
+ * If you use the `java` command to run a program and want UTF-8 output on the console, add the option `-Dfile.encoding=UTF-8`.
