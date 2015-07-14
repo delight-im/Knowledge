@@ -10,3 +10,14 @@
  * The technology-driven economy greatly favors a small group of successful individuals by amplifying their talent and luck, and dramatically increasing their rewards. (Erik Brynjolfsson)
  * "Agatha Christie never imagined being rich enough to own a car or poor enough to have no servants. Profound example of tech and social change." (Benedict Evans)
  * "Education is the most powerful thing you can do to affect lifetime earnings." (David Autor)
+
+## Digital economics
+
+ * Once you've produced a certain product, the cost of making additional copies (marginal cost) tends to zero.
+ * Advertising allows you to give away your complete product to consumers for free while generating revenue from third parties who purchase ads that are shown to the audience. This has always been a popular business model for radio, TV and the web.
+ * Tiered pricing allows you to give away some products for free and conversely set higher prices for other parts of the portfolio. Examples for this model include coupons and the freemium model.
+ * When you bundle products that each individually have almost zero marginal cost, you can sell the whole package as a unit that's worth paying for. For example, movie streaming sites such as Netflix package individual films and series (with very low marginal costs) into a subscription that's worth paying for.
+ * Larger companies can make single products free to support their overall ecosystem. For example, Google and Apple subsidize their ecosystems with free GPS tools such as maps and navigation.
+ * Net neutrality prevents "a transformation from a market where innovation rules to one where deal-making rules. Or, a market where firms rush to make exclusive agreements with AT&T and Verizon instead of trying to improve their products." (Tim Wu)
+ * Regarding net neutrality, "let's think about the nation's highways. How would you feel if [they] announced an exclusive deal with General Motors to provide a special 'rush-hour' lane for GM cars only? That seems intuitively wrong. [...] And if highways really did choose favorite brands, you might buy a Pontiac instead of a Toyota to get the rush-hour lane, not because the Pontiac is actually a good car. As a result, the nature of competition among car-makers would change. Rather than try to make the best product, they would battle to make deals with highways." (Tim Wu)
+ * "[T]he 700-person start-up Airbnb, which allows users to rent their apartments like hotel rooms, was valued at $10 billion this past spring, about half as much as the Hilton corporation, which employs 152,000 people." (Michael Harris)
