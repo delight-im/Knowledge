@@ -33,7 +33,16 @@
  * *Never* trust user input, i.e. you must always filter, validate or escape it.
  * Make as few separate HTTP request as possible.
  * Always put CSS and JavaScript code into separate files (from the HTML) so that they can be cached.
+ * "By 'hypertext', I mean non-sequential writing — text that branches and allows choices to the reader, best read at an interactive screen. As popularly conceived, this is a series of text chunks connected by links which offer the reader different pathways." (Ted Nelson)
+ * "[Users] said they were more likely to believe Web sites that looked professionally designed." (The Stanford Web Credibility Project)
 
 ## RESTful APIs
 
+ * "Objects in a typical REST system are addressable by URI and interacted with using verbs in the HTTP protocol. An HTTP GET to a particular URI fetches an object and returns a server-specified set of fields. An HTTP PUT edits an object; an HTTP DELETE deletes an object; and so on." (Nick Schrock)
  * Whenever you have successfully created a new resource via `POST`, send a `201 Created` response code and a `Location` header specifying where new new resource is located.
+ * "Fetching complicated object graphs [from REST systems] require[s] multiple round trips between the client and server to render single views. For mobile applications operating in variable network conditions, these multiple roundtrips are highly undesirable." (Nick Schrock)
+ * "REST endpoints are usually weakly-typed and lack machine-readable metadata. [...] Developer[s] deal with systems that lack this metadata by inspecting frequently out-of-date documentation and then writing code against the documentation." (Nick Schrock)
+
+## Forms
+
+ * "Literally including the phrase 'optional' after a label is much clearer than any visual symbol you could use to mean the same thing." (Luke Wroblewski)
