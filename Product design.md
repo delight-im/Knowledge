@@ -5,6 +5,15 @@
  * "Focusing on the problem you want to solve will keep you from getting blinded by your enthusiasm for a single solution." (hatchery.io)
  * "Requiring login or account creation too early in a site experience can be detrimental to conversion. [...] Before offering their personal information, users want to browse content and get a sense of what a site has to offer." (Pete LePage)
  * "Offer the option to check out as a guest, and encourage registration with tangible benefits." (Pete LePage)
+ * "[T]he effort required to design something is inversely proportional to the simplicity of the result." (Roy T. Fielding)
+ * "Above all else, align with customers. Win when they win. Win only when they win." (Jeff Bezos)
+ * "Design is not just what it looks like and feels like. Design is how it works." (Steve Jobs)
+ * "I've been amazed at how often those outside the discipline of design assume that what designers do is decoration. Good design is problem solving." (Jeffery Veen)
+ * "Design is the fundamental soul of a human-made creation that ends up expressing itself in successive outer layers of the product or service." (Steve Jobs)
+ * "Visual appearance is one of the most effective variables for quickly differentiating one application from another." (Bob Baxley)
+ * "As far as the customer is concerned, the interface is the product." (Jef Raskin)
+ * "When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong." (Richard Buckminster Fuller)
+ * "The ability to simplify means to eliminate the unnecessary so that the necessary may speak." (Hans Hofmann)
 
 ## Growth
 
