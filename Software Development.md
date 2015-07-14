@@ -38,6 +38,13 @@
  * Comments should explain the *why* and not the *what*.
  * Delete code that isn't being used (and do not just comment it out). That's what version control systems are for.
  * "Weeks of coding can save you hours of planning." (Unknown)
+ * The maximum length of an email address is 254 characters, as per RFC 5321.
+ * "When it comes to writing code, the number one most important skill is how to keep a tangle of features from collapsing under the weight of its own complexity. I've worked on large telecommunications systems, console games, blogging software, a bunch of personal tools, and very rarely is there some tricky data structure or algorithm that casts a looming shadow over everything else. But there's always lots of state to keep track of, rearranging of values, handling special cases, and carefully working out how all the pieces of a system interact. To a great extent the act of coding is one of organization." (James Hague)
+ * "Good programmers know what to write. Great ones know what to rewrite (and reuse)." (Eric S. Raymond)
+ * "If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource." (Eric S. Raymond)
+ * "Indeed, the ratio of time spent reading [code] vs. writing is well over 10:1. We are *constantly* reading old code as part of the effort to write new code. Because this ratio is so high, we want the reading of code to be easy, even if it makes the writing harder." (Robert C. "Uncle Bob" Martin)
+ * "The first few weeks of any job are just figuring out how a program works even if you're familiar with every single language, framework, and standard that's involved [...]." (Peter Welch)
+ * If you care about internationalization, *always* use a single field for people's names only. Do *not* distinguish between given name and family name, or you'll also have to take care of father's name, mother's name and clan name, as well as all combinations.
 
 ## Charsets and Encodings
 
