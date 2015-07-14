@@ -58,3 +58,4 @@
  * "Perseverance is failing 19 times and succeeding the 20th." (Julie Andrews)
  * "No one succeeds without effort ... Those who succeed owe their success to perseverance." (Ramana Maharshi)
  * "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." (Antoine de Saint-Exupéry)
+ * Learn to distrust your negative emotions. Later, they usually seem overstated or unfounded. (Giovanni Tirloni)
