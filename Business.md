@@ -35,3 +35,6 @@
  * "If you don't have first hand experience of an industry, you're probably wrong about how it works, what problems they have and so how they should be solved. Talk to people." (Ben Dixon)
  * "Trying to raise money and apply to accelerators is a full time job. You're probably either building [a product] or fund raising. Not both. If in doubt, choose building." (Ben Dixon)
  * Providing free returns to customers in e-commerce has proved profitable. Customers who make use of a free return are far more likely to buy again in the same shop the next time. This easily compensates for the costs of the free return.
+ * "[P]art of the problem with freemium is that it changes your perception of where the value lies. The user discounts the value of the free component to nothing and only measures the value of the additional functionality that is unlocked with buying the premium portion. A lot of the time, this looks like a ripoff." (scriptman)
+ * It's easier to lower the price when you don't sell enough than to raise the price on something that is selling well.
+ * "[A]s far as equity is concerned, it's worth $0 until you exit. There's a potential for millions, but my lottery ticket is also worth potentially millions of dollars. My landlord won't accept my lottery ticket as payment." (Jemaclus)
