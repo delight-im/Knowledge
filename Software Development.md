@@ -45,6 +45,7 @@
  * "Indeed, the ratio of time spent reading [code] vs. writing is well over 10:1. We are *constantly* reading old code as part of the effort to write new code. Because this ratio is so high, we want the reading of code to be easy, even if it makes the writing harder." (Robert C. "Uncle Bob" Martin)
  * "The first few weeks of any job are just figuring out how a program works even if you're familiar with every single language, framework, and standard that's involved [...]." (Peter Welch)
  * If you care about internationalization, *always* use a single field for people's names only. Do *not* distinguish between given name and family name, or you'll also have to take care of father's name, mother's name and clan name, as well as all combinations.
+ * Traits are "language-assisted copy and paste" or "interfaces with implementation" (but actually "implementation only").
 
 ## Charsets and Encodings
 
@@ -103,3 +104,10 @@
 ### Binary
 
  * Parts of the content must be interpreted as binary objects, i.e. they must be decoded to be readable. This is common for photos, videos, music, etc.
+
+## Compression
+
+ * "The ZIP format was developed by Phil Katz as an open format with an open specification, where his implementation, PKZIP, was shareware. It is an archive format that stores files and their directory structure, where each file is individually compressed." (Mark Adler)
+ * "The `.tar.gz` format compresses better than the `.zip` approach, since the compression of a `.tar` can take advantage of redundancy across files, especially many small files." (Mark Adler)
+ * "The `zlib` library supports `deflate` compression and decompression, and three kinds of wrapping around the `deflate` streams." (Mark Adler)
+ * "[A] small group created the PNG losslessly compressed image format, with file type `.png`, to replace `.gif`. That format also uses the Deflate format for compression, which is applied after filters on the image data expose more of the redundancy. In order to promote widespread usage of the PNG format, two free code libraries were created: `libpng` and `zlib`. `libpng` handled all of the features of the PNG format, and `zlib` provided the compression and decompression code for use by `libpng`, as well as for other applications. `zlib` was adapted from the `gzip` code." (Mark Adler)
