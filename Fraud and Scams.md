@@ -50,7 +50,7 @@
    * trick played in an establishment (usually strip club or entertainment bar)
    * possibility of sex is often suggested
    * victim is tricked into paying money at excessively high prices
-   * victim receives poor goods/service (e.g. watered-down drinks) — or even none at all
+   * victim receives poor goods/service (e.g. watered-down drinks) â€” or even none at all
    * victim is later ejected
  * Fake antivirus / Fake support call
    * Computer users are unsolicitedly contacted by
@@ -69,13 +69,13 @@
    * the victim (usually a married man) is deliberately coerced into a compromising position (usually a supposed affair)
    * the victim is threatened with public exposure unless blackmail money is paid
  * Thai gems
-   * selling jewelry or custom-made suits — both overpriced — telling the victim they will make money by importing it to their home country
+   * selling jewelry or custom-made suits â€” both overpriced â€” telling the victim they will make money by importing it to their home country
  * Coin-matching game
    * one operator begins the game with the victim
    * second operator joins and briefly leaves again
    * first operator agrees with victim to cheat on second operator
    * when rejoining, the second operator loses and angrily threatens to call the police
-   * the first operator and the victim agree to pay hush money — later split up between the two operators
+   * the first operator and the victim agree to pay hush money â€” later split up between the two operators
  * Fiddle game / Glim-dropper (pigeon drop technique)
    * first scammer goes to expensive restaurant and after eating finds out they have "forgotten" their purse at home (nearby)
    * first scammer leaves expensive and rare good (e.g. musical instrument) as collateral or pledge and goes to get their purse
@@ -83,16 +83,16 @@
    * second scammer claims they want to buy that rare item for a large amount (e.g. 10,000 USD)
    * second scammer "has to" leave abruptly for an appointment but leaves contact information
    * victim is to inform potential buyer when the owner returns
-   * first scammer returns and wants to get back their collateral or pledge — but victim thinks they might make money now
+   * first scammer returns and wants to get back their collateral or pledge â€” but victim thinks they might make money now
    * victim offers the "owner" of the collateral or pledge a considerable amount (e.g. 5,000 USD)
-   * victim buys the item in good faith *and* greed to make profit by re-selling it to the second scammer — who never returns
+   * victim buys the item in good faith *and* greed to make profit by re-selling it to the second scammer â€” who never returns
    * chronology of the discovery of the valuable item and the offer to buy may be swapped when second scammer claims to have lost something
  * Lottery fraud by proxy
    * scammer fakes an alleged winning ticket but claims not to be eligible for its redemption
-   * victim buys "winning ticket" from scammer — and will later even be held criminally liable when trying to redeem it
+   * victim buys "winning ticket" from scammer â€” and will later even be held criminally liable when trying to redeem it
  * Fake casting agent scam
    * scammer pretends to be casting agent for a modeling agency searching for new talents
-   * victim is told they need a professional portfolio — which requires an upfront payment
+   * victim is told they need a professional portfolio â€” which requires an upfront payment
  * Fraudulent directory solicitations
    * victims (business owners) receive a solicitation from a business directory designed like an invoice
    * the scammers hope that the business owners fall victim to them by mistaking the solicitation
@@ -100,3 +100,7 @@
      * for updates/corrections that must be made to an existing entry (resulting the victim signing the document)
  * Pig-in-a-poke (information asymmetry)
    * the victim thinks they are buying a "pig" when they are actually buying a "cat" hidden in the bag
+
+## Online
+
+ * It is [ridiculously easy](http://fusion.net/story/191773/i-created-a-fake-business-and-fooled-thousands-of-people-into-thinking-it-was-real/) to buy fake reviews, likes and followers online. Be suspicious.
