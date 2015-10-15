@@ -63,3 +63,4 @@
  * "Don't spend your precious time asking 'Why isn't the world a better place?'. It will only be time wasted. The question to ask is 'How can I make it better?' To that there is an answer." (Leo Buscaglia)
  * "Don't cry because it's over, smile because it happened." (Theodor "Dr. Seuss" Seuss Geisel)
  * "I always thought of myself as a humanities person as a kid, but I liked electronics ... then I read something that one of my heroes, Edwin Land of Polaroid, said about the importance of people who could stand at the intersection of humanities and sciences, and I decided that's what I wanted to do." (Steve Jobs)
+ * "Before cofounding GitHub I applied for an engineering job at Yahoo and didn't get it. Don't let other people discourage you." (Chris Wanstrath)
