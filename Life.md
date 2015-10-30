@@ -64,3 +64,6 @@
  * "Don't cry because it's over, smile because it happened." (Theodor "Dr. Seuss" Seuss Geisel)
  * "I always thought of myself as a humanities person as a kid, but I liked electronics ... then I read something that one of my heroes, Edwin Land of Polaroid, said about the importance of people who could stand at the intersection of humanities and sciences, and I decided that's what I wanted to do." (Steve Jobs)
  * "Before cofounding GitHub I applied for an engineering job at Yahoo and didn't get it. Don't let other people discourage you." (Chris Wanstrath)
+ * Survivorship bias, a type of selection bias, is the error of concentrating on subjects that "survived" some process or selection and thereby overlooking all the others due to their lack of visibility.
+ * If you believe that music in the past was better than today's music, it may be because only the most popular music from one generation "survives" and, in a form of survivorship bias, distorts the comparability for you.
+ * In the area of highly competitive careers (e.g. with singers, movie stars and athletes), one does generally overlook the myriad of people that may have been similarly skilled and determined as the victorious ones, but who did ultimately fail because they were not as lucky. This causes a survivorship bias.
