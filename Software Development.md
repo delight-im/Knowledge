@@ -47,6 +47,8 @@
  * If you care about internationalization, *always* use a single field for people's names only. Do *not* distinguish between given name and family name, or you'll also have to take care of father's name, mother's name and clan name, as well as all combinations.
  * Traits are "language-assisted copy and paste" or "interfaces with implementation" (but actually "implementation only").
  * "90 days is the length of one quarter. That's how far you can reasonably think and plan ahead when you're in hyper-growth. And there's a question you have to ask yourself at the start of every quarter: What would be stupid for us not to do in the next 90 days? [...] This shouldn't be a competition for how many ideas people can think up. The person evangelizing for an idea has to truly believe it is vital for the company right now." (Tom Conrad)
+ * "The more tied components are to each other, the less reusable they will be, and the more difficult it becomes to make changes to one without accidentally affecting another." (Rebecca Murphey)
+ * "The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application." (Justin Meyer)
 
 ## Charsets and Encodings
 
