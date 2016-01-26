@@ -3,6 +3,8 @@
  * "The reason we struggle with insecurity is because we compare our behind-the-scenes with everyone else's highlight reel." (Steven Furtick)
  * "It is difficult to get a man to understand something, when his salary depends upon his not understanding it." (Upton Beall Sinclair)
  * "[H]appiness [is] the most attractive female emotion expression, and one of the least attractive in males. In contrast, pride show[s] the reverse pattern; it [is] the most attractive male expression, and one of the least attractive in women." (Jessica L. Tracy and Alec T. Beall)
+ * "Because it is always possible, after the fact, to come up with a story about why things worked out the way they did -- that the first 'Harry Potter' really was a brilliant book, even if the eight publishers who rejected it didn't know that at the time -- our belief in determinism is rarely shaken, no matter how often we are surprised." (Duncan J. Watts)
+ * "[W]hen people tend to like what other people like, differences in popularity are subject to what is called 'cumulative advantage', or the 'rich get richer' effect. This means that if one object happens to be slightly more popular than another at just the right point, it will tend to become more popular still." (Duncan J. Watts)
 
 ## Learning
 
