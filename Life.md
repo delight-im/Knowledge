@@ -67,3 +67,5 @@
  * Survivorship bias, a type of selection bias, is the error of concentrating on subjects that "survived" some process or selection and thereby overlooking all the others due to their lack of visibility.
  * If you believe that music in the past was better than today's music, it may be because only the most popular music from one generation "survives" and, in a form of survivorship bias, distorts the comparability for you.
  * In the area of highly competitive careers (e.g. with singers, movie stars and athletes), one does generally overlook the myriad of people that may have been similarly skilled and determined as the victorious ones, but who did ultimately fail because they were not as lucky. This causes a survivorship bias.
+ * "Once you've accepted your flaws, no one can use them against you." (George R. R. Martin)
+ * "A bruise is a lesson ... and each lesson makes us better." (George R. R. Martin)
