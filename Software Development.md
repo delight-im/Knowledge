@@ -49,6 +49,10 @@
  * "90 days is the length of one quarter. That's how far you can reasonably think and plan ahead when you're in hyper-growth. And there's a question you have to ask yourself at the start of every quarter: What would be stupid for us not to do in the next 90 days? [...] This shouldn't be a competition for how many ideas people can think up. The person evangelizing for an idea has to truly believe it is vital for the company right now." (Tom Conrad)
  * "The more tied components are to each other, the less reusable they will be, and the more difficult it becomes to make changes to one without accidentally affecting another." (Rebecca Murphey)
  * "The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application." (Justin Meyer)
+ * "Open source is the most powerful idea of our generation." (Matt Mullenweg)
+ * "It may take time, but open [source] will win over closed every time." (Matt Mullenweg)
+ * "Much of real hacking has to do with trial and error -- and lots of it -- until the attacker hits paydirt. Simply breaking stuff and seeing how and why it fails, and then trying to recreate that instance reliably." (Brian Krebs)
+ * While "free software" and "open source" refer -- more or less -- to the same category of software, "free software" (coined by Richard Stallman) focuses on the important social, moral and ethical advantages to human kind. "Open source" (made popular by Eric S. Raymond) underlines the technical, practical and pragmatic issues. Unless published under a license that is too restrictive, open-source software is also free software.
 
 ## Charsets and Encodings
 
