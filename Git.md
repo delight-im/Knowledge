@@ -168,3 +168,10 @@ In order to tag the current point in history, just execute the following two com
 git tag -a <TAG_NAME> -m "<DESCRIPTION>"
 git push origin --tags
 ```
+
+## Importing commits, pull requests and other changes via patch files
+
+ 1. Get the patch file for the commit, pull request or other change that you want to import into your repository. For GitHub pull requests, you can easily get the patch file by appending `.patch` to the URL of the pull request and following the redirect.
+ 2. Pipe the content of the patch file to `git apply`. Example: `curl -L https://github.com/<USER>/<REPO>/pull/<ID>.patch | git apply`
+ 3. Optionally, make additional changes to the imported code.
+ 4. Commit the code via `git commit` while mentioning the original author of the imported patch with the option `--author "<NAME> <<EMAIL>>"`.
