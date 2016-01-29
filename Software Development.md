@@ -53,6 +53,7 @@
  * "It may take time, but open [source] will win over closed every time." (Matt Mullenweg)
  * "Much of real hacking has to do with trial and error -- and lots of it -- until the attacker hits paydirt. Simply breaking stuff and seeing how and why it fails, and then trying to recreate that instance reliably." (Brian Krebs)
  * While "free software" and "open source" refer -- more or less -- to the same category of software, "free software" (coined by Richard Stallman) focuses on the important social, moral and ethical advantages to human kind. "Open source" (made popular by Eric S. Raymond) underlines the technical, practical and pragmatic issues. Unless published under a license that is too restrictive, open-source software is also free software.
+ * A good way of finding all your copyright notices (in code) is searching for the regex `(?:(\/\*)(?:\*)?(\s+\* ))?Copyright(?: \((?:C|c)\))? ([0-9]{4})(?:-([0-9]{4}))? (Your Name)`.
 
 ## Charsets and Encodings
 
