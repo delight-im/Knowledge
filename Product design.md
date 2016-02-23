@@ -15,6 +15,7 @@
  * "When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong." (Richard Buckminster Fuller)
  * "The ability to simplify means to eliminate the unnecessary so that the necessary may speak." (Hans Hofmann)
  * "One of the things I've learned is that every time you offer a choice, you paralyse some people who can't decide if that's what they want to do or not. [...] It's the 'Paradox of Choice', the jam experiment -- you put strawberry, apricot and blackberry jam in the supermarket aisle and you can persuade half the people coming down the aisle to taste the jam and maybe buy one. But if you decide to add lemon, orange, blueberry and grapefruit, by adding the choices you don't increase the number of people choosing one, but in fact you go the other way. Fewer people choose anything at all." (Neil Hunt)
+ * "Things are packages of emphasis. Some things are emphasized in a product, some things are not done as well in a product, some things are chosen not to be done at all in a product. And so different people make different choices." (Steve Jobs)
 
 ## Growth
 
