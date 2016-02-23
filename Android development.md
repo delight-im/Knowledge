@@ -9,6 +9,7 @@
  * If you want to make the background of a `View` transparent, either for design or performance reasons, use `android:background="@null"` in XML or `View.setBackgroundDrawable(null)` in Java.
  * When adding new permissions into permission groups that have already been accepted by the user, Google Play will not require the user to review the new permissions. [In the Android source code](https://github.com/android/platform_frameworks_base/blob/master/core/res/AndroidManifest.xml), you can look up which permissions belong to the same groups. Just search for the `<permission android:name="<PERMISSION_NAME>"` string and check the `android:permissionGroup` attribute.
  * If you want to find all URLs in your custom code, search for the regex `:\/\/(?!schemas\.android\.com|www\.w3\.org|ns\.adobe.com)`.
+ * In order to inspect a third-party (closed-source) APK, for example to see the required permissions, run `<ANDROID_SDK_PATH>/build-tools/<VERSION>/aapt.exe l -a <APK_PATH>.apk` and optionally pipe the results to `grep`, etc.
 
 ## Keystores and APK signing
 
