@@ -69,3 +69,5 @@
  * In the area of highly competitive careers (e.g. with singers, movie stars and athletes), one does generally overlook the myriad of people that may have been similarly skilled and determined as the victorious ones, but who did ultimately fail because they were not as lucky. This causes a survivorship bias.
  * "Once you've accepted your flaws, no one can use them against you." (George R. R. Martin)
  * "A bruise is a lesson ... and each lesson makes us better." (George R. R. Martin)
+ * "We shouldn't be looking for heroes, we should be looking for good ideas." (Noam Chomsky)
+ * "[As an astronaut, you] develop an instant global consciousness, a people orientation, an intense dissatisfaction with the state of the world, and a compulsion to do something about it. From out there on the moon, international politics look so petty. You want to grab a politician by the scruff of the neck and drag him a quarter of a million miles out and say, 'Look at that, you son of a bitch'." (Edgar D. Mitchell)
