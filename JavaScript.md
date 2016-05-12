@@ -10,6 +10,7 @@
  * Any `Number` is internally stored as a 64-bit floating point (double), according to the IEEE-754 standard.
  * The range for integers is `-9007199254740991` (`-(2^53 - 1)`) to `9007199254740991` (`2^53 - 1`), or `Number.MIN_SAFE_INTEGER` to `Number.MAX_SAFE_INTEGER.`
  * The range for numbers in general is approximately `5e-324` to `1.79E+308`, or `Number.MIN_VALUE` to `Number.MAX_VALUE`.
+ * JavaScript cryptography is only secure when used in a signed, local application (e.g. a browser extension), or when distributed over HTTPS. In the latter case, it can only ever be as secure as the HTTPS connection it relies on to distribute the JavaScript source, of course. But JavaScript cryptography can provide something that HTTPS alone can't provide: encrypted information that the server can't decrypt.
 
 # "Static classes" in JavaScript for namespaced utilities
 
@@ -18,15 +19,15 @@ If you want to create a "static class" in JavaScript, so that you can call funct
 ```
 // create an object for our namespace only if there is none yet
 if (typeof MyClass !== "object") {
-	MyClass = {};
+    MyClass = {};
 }
 // add the methods in a closure to prevent the creation of global variables
 (function () {
-	// create the function on our object only if there is none yet
-	if (typeof MyClass.format !== "function") {
-		MyClass.format = function (param) {
-			// do something
-		};
-	}
+    // create the function on our object only if there is none yet
+    if (typeof MyClass.format !== "function") {
+        MyClass.format = function (param) {
+            // do something
+        };
+    }
 })();
 ```
