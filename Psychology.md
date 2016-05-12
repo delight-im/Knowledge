@@ -18,6 +18,10 @@
 ## Motivation
 
  * "Work finally begins when the fear of doing nothing exceeds the fear of doing it badly." (Alain de Botton)
+ * "If your job is to eat a frog, eat it first thing in the morning, and if your job is to eat two frogs, eat the big one first." (Mark Twain)
+ * "No one 'builds a house'. They lay one brick again and again and the end result is a house. Procrastinators are great visionaries -- they love to fantasize about the beautiful mansion they will one day have built -- but what they need to be are gritty construction workers, who methodically lay one brick after the other, day after day, without giving up, until a house is built." (Tim Urban)
+ * "But the best thing [to fight procrastination] is to recognize that you don't have to be in the mood to do a certain task -- just ignore how you feel and get started." (Ana Swanson)
+ *
 
 ## Social psychology
 
