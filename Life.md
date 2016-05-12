@@ -1,18 +1,16 @@
 # Life
 
  * Surround yourself with smart and inspiring people, and if you're the smartest person in the room, maybe it's time to move on.
- * Don't make promises in the moment you're happy and delighted.
+ * Don't promise when you're happy. Don't reply when you're angry. Don't decide when you're sad.
  * Nothing is worth more than your personal health. Live a healthy lifestyle, and go to annual check-ups if possible.
  * Get enough sleep every night. Sleep is really important to so many facets in life, be it regeneration, attentiveness or physical health.
  * Getting up 15-30 minutes earlier every morning is not that much, but the effect on your available time in the morning is great!
- * Don't reply when you're angry.
- * Don't waste any time on jealously.
+ * Don't waste any time on jealousy.
  * What other people think about you is none of your business.
  * Don't be afraid to ask someone if you're not sure, no matter what topic, what time or place.
  * Finish one project before you start another.
  * Smile often, even to complete strangers.
  * Apologize when you should.
- * Don't make any important decisions when you're sad.
  * Be curious. This is certainly more important than just being intelligent.
  * Either at work or in your freetime, do something that makes you proud.
  * "I can accept failure, everyone fails at something. But I can't accept not trying." (Michael Jordan)
@@ -71,3 +69,7 @@
  * "A bruise is a lesson ... and each lesson makes us better." (George R. R. Martin)
  * "We shouldn't be looking for heroes, we should be looking for good ideas." (Noam Chomsky)
  * "[As an astronaut, you] develop an instant global consciousness, a people orientation, an intense dissatisfaction with the state of the world, and a compulsion to do something about it. From out there on the moon, international politics look so petty. You want to grab a politician by the scruff of the neck and drag him a quarter of a million miles out and say, 'Look at that, you son of a bitch'." (Edgar D. Mitchell)
+ * "Adulthood is emailing 'sorry for the delayed response!' back and forth until one of you dies." (Marissa Miller)
+ * "Inherit (or luck into) a large fortune, and give a couple million to a good cause -- never mind that it will affect your quality of life not at all -- and you'll be lionized as a hero. The great and the good will invite you onto their podiums -- but a poor person who takes in a foster kid gets virtually no recognition, even if fostering involves real sacrifice on their part." (Cory Doctorow)
+ * "Don't forget that most men with nothing would rather protect the possibility of becoming rich than face the reality of being poor." (John Dickinson ("1776"))
+ * "Meritocracy is a tautology, of course. There's no objective measure of *merit* so there's no way to know whether your society is meritocratic or not. Every famous, powerful, rich person owes their status to a combination of skill, luck, and persistence. The best luck of all is to be born to fortunate circumstances, well fed and well educated and well loved. We know for a fact that billions lack some or all of these forms of luck, and among those people are innumerable potential Stephen Hawkings and Steve Jobses and Albert Einsteins. The fact that Jobs was born to a Syrian refugee and that Hawking struggles with a debilitating illness just shows you how fickle luck is -- unless you believe that evolution produced exactly one brilliant tech entrepreneur in the ranks of Syrian refugees and one brilliant scientist with ALS, then you have to believe that the others just didn't get quite so lucky." (Cory Doctorow)
