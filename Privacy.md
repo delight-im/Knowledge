@@ -5,6 +5,7 @@
  * "Since 1851, Amsterdam had a registry that recorded the following innocent pieces of data about the residents: name, date of birth, address, marital status, parents, profession, religion, previous addresses and date of death if deceased. [...] What we do know is that [a] little field caused untold thousands of people to die once the occupiers decided to use it to locate Jewish people." (Jacques Mattheij)
  * "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say." (Edward Snowden)
  * Mass surveillance can be used against journalists, whistleblowers and human rights activists. So even if you think that 'if you have nothing to hide, you have nothing to fear', people who represent your political beliefs *may* have something to fear.
+ * "Show me the man, and I will find you the crime." (Lavrentiy Pavlovich Beria)
 
 ## Technology
 
