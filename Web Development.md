@@ -36,6 +36,25 @@
  * "By 'hypertext', I mean non-sequential writing — text that branches and allows choices to the reader, best read at an interactive screen. As popularly conceived, this is a series of text chunks connected by links which offer the reader different pathways." (Ted Nelson)
  * "[Users] said they were more likely to believe Web sites that looked professionally designed." (The Stanford Web Credibility Project)
 
+## HTML
+
+ * Every HTML page should start with the lines
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="{pageLanguage}">
+   <head>
+       <meta charset="{charset}">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+   ```
+
+   in exactly that order, where `{pageLanguage}` is an [ISO 639](https://de.wikipedia.org/wiki/ISO_639) or [BCP47](http://www.ietf.org/rfc/bcp/bcp47.txt) code, e.g. `en` or `de`, and `{charset}` is the character encoding that the page uses, e.g. `utf-8`.
+
+## Domains
+
+ * Domain extensions (TLDs) that Google treats as *generic*, i.e. suitable for international applications that are not targeted at a specific country, are the gTLDs `.aero`, `.biz`, `.cat`, `.com`, `.coop`, `.edu`, `.gov`, `.info`, `.int`, `.jobs`, `.mil`, `.mobi`, `.museum`, `.name`, `.net`, `.org`, `.pro`, `.tel` and `.travel`, among more recent additions, and the ccTLDs `.ad`, `.as`, `.asia`, `.bz`, `.cc`, `.cd`, `.co`, `.dj`, `.eu`, `.fm`, `.io`, `.la`, `.me`, `.ms`, `.nu`, `.sc`, `.sr`, `.su`, `.tv`, `.tk` and `.ws`.
+
 ## RESTful APIs
 
  * "Objects in a typical REST system are addressable by URI and interacted with using verbs in the HTTP protocol. An HTTP GET to a particular URI fetches an object and returns a server-specified set of fields. An HTTP PUT edits an object; an HTTP DELETE deletes an object; and so on." (Nick Schrock)
