@@ -8,4 +8,4 @@
  * "[There are] [t]hree valid kinds of monitoring output: Alerts [are when a] human needs to take action *immediately*. Tickets [are when a] human needs to take action *eventually*. Logging [is when] *no* action [is] needed. Note that, for example, graphs are a type of log." (Dan Luu)
  * "[I]f a user is on a smartphone with 99% reliability, they can't tell the difference between 99.99% and 99.999% reliability [of your application]." (Dan Luu)
  * "Reliability isn't linear in cost. It can easily cost 100x more to get one additional increment of reliability." (Dan Luu)
- * "Code is a liability. Remove dead code or other bloat." (Dan Luu)
+ * Backups from a server must always be *pulled*, or, if they really need to be pushed, this needs to be done with append-only permissions. Otherwise, the server must necessarily have credentials with full write access to the backup location. If the server is compromised, that write access can be used to attack the backup repository.
