@@ -1,15 +1,5 @@
 # Ubuntu
 
-## Installation
-
- * Set a proper timezone:
-
-   ```
-   $ sudo dpkg-reconfigure tzdata
-   ```
-
-   Select your region and city with the arrow keys and continue by pressing `Enter` each time.
-
 ## Security
 
 ### Users and groups
@@ -125,6 +115,87 @@
 
    You should repeat this regularly.
 
+ * Configure your system to install security updates automatically. You may not like this and prefer to install updates manually -- this is fine. But you have to do it often and *regularly*. Otherwise, consider automatic updates, where the advantages outweigh the disadvantages:
+
+   ```
+   $ sudo apt-get install unattended-upgrades update-notifier-common
+   ```
+
+   After the two packages have been installed, adjust their configuration:
+
+   ```
+   $ sudo nano /etc/apt/apt.conf.d/10periodic
+   ```
+
+   Make sure that the content of this file has the following lines:
+
+   ```
+   APT::Periodic::Update-Package-Lists "1";
+   APT::Periodic::Download-Upgradeable-Packages "1";
+   APT::Periodic::AutocleanInterval "7";
+   APT::Periodic::Unattended-Upgrade "1";
+   ```
+
+   Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
+
+   There is another configuration file that needs some more options changed:
+
+   ```
+   $ sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
+   ```
+
+   In the
+
+   ```
+   Unattended-Upgrade::Allowed-Origins {
+   ```
+
+   section, make sure that only
+
+   ```
+   "${distro_id}:${distro_codename}-security";
+   ```
+
+   is listed and uncommented.
+
+   Next, uncomment the following line:
+
+   ```
+   Unattended-Upgrade::MinimalSteps "true";
+   ```
+
+   Further down, uncomment the line saying
+
+   ```
+   Unattended-Upgrade::Remove-Unused-Dependencies "false";
+   ```
+
+   and change its value to `true` so that it looks like this:
+
+   ```
+   Unattended-Upgrade::Remove-Unused-Dependencies "true";
+   ```
+
+   Likewise, uncomment the line saying
+
+   `Unattended-Upgrade::Automatic-Reboot "false";`
+
+   and change its value to `true`. That line should then look like this:
+
+   ```
+   Unattended-Upgrade::Automatic-Reboot "true";
+   ```
+
+   As a last step, uncomment the line saying
+
+   ```
+   Unattended-Upgrade::Automatic-Reboot-Time "02:00";
+   ```
+
+   and leave its value unchanged, unless you want to change the reboot time from that reasonable default to something else.
+
+   Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
+
 ### IPv6
 
  * Disable IPv6 support unless you need it already *and* have firewall rules set up for it:
@@ -188,3 +259,48 @@
    ```
 
    Type `y` and press `Enter` for the changes to take effect.
+
+## Installation
+
+ * Set a proper timezone:
+
+   ```
+   $ sudo dpkg-reconfigure tzdata
+   ```
+
+   Select your region and city with the arrow keys and continue by pressing `Enter` each time.
+
+## Cron jobs
+
+ * Ensure that `cron` is installed and enabled:
+
+   ```
+   $ sudo apt-get update
+   $ sudo apt-get install cron
+   ```
+
+ * Add a new cron job using
+
+   ```
+   $ crontab -e
+   ```
+
+   for an entry in your own crontab or
+
+   ```
+   $ sudo crontab -e
+   ```
+
+   for an entry in the `root` user's crontab.
+
+   Choose `nano` or any other editor you prefer if you are asked. Then add a new line at the end of the file, preserving the trailing newline. Specify both the time schedule and the command to run.
+
+   An entry like `* * * * * my-command` would run `my-command` *every minute*. Replacing the asterisks with single numbers (or comma-separated numbers or ranges) restricts the schedule to certain minutes, hours, days, months or days of the week, in that order. You can redirect or append the command's output to a file using `>` or `>>` at the end, or ignore it using ` > /dev/null 2>&1`.
+
+   Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave. This will write to a temporary file and the tool will update the crontab automatically.
+
+ * Check if your new cron job has been added successfully by running
+
+   ```
+   $ sudo crontab -l
+   ```
