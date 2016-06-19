@@ -55,6 +55,8 @@
  * While "free software" and "open source" refer -- more or less -- to the same category of software, "free software" (coined by Richard Stallman) focuses on the important social, moral and ethical advantages to human kind. "Open source" (made popular by Eric S. Raymond) underlines the technical, practical and pragmatic issues. Unless published under a license that is too restrictive, open-source software is also free software.
  * A good way of finding all your copyright notices (in code) is searching for the regex `(?:(\/\*)(?:\*)?(\s+\* ))?Copyright(?: \((?:C|c)\))? ([0-9]{4})(?:-([0-9]{4}))? (Your Name)`.
  * Always declare classes `final`, i.e. not extensible by child classes, unless they have been designed with inheritance in mind.
+ * With conventional contract law, participants or judges can see the spirit or intent behind contracts and may agree to a compromise or even intervene, should there be any typo, loophole or invalid rule. But with software contracts or *smart contracts*, only the exact characters that are in the contract matter. The intent or spirit cannot be enforced, because there is none encoded in the contract. And if human operators step in again to intervene, this just shows that the system can be manipulated.
+ * "Code is a liability. Remove dead code or other bloat." (Dan Luu)
 
 ## Charsets and Encodings
 
