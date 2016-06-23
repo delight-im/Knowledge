@@ -15,8 +15,11 @@
  * exploit kindness: advantage is taken of the victim's willingness for voluntary (financial) support, e.g. after a natural disaster
  * appeal to innate dishonesty: make the victim act criminally themself through their reduced inhibition threshold, e.g. in Nigerian scam
  * herd principle: the scam is suggested to be legitimate by making use of people's tendency to act like their friends or people around them
+ * pig-in-a-poke (information asymmetry): the victim thinks they are buying a "pig" when they are actually buying a "cat" hidden in the bag
 
 ## Confidence tricks
+
+### Short cons (take seconds or minutes)
 
  * Shell game (sleight of hand)
    * scammer has three shells and a small coin
@@ -31,19 +34,6 @@
    * the audience also serves as a protection against photographers
    * when the police is approaching, all traces of the game can be removed in seconds
    * pickpockets may be part of the game as well so that when the scammers seem to run away from the police they're actually leaving with theft
- * Spanish Prisoner scam / Nigerian scam
-   * enlisting the victim to aid in retrieving some stolen money from a hidden place
-   * taking advantage of the victim's greed
-   * tricking the victim into believing into the existence of the money
-   * preventing the victim from going to the police by making them act criminally themself which they would have to admit
-   * luring with faked cheques that have a manipulated recipient but are otherwise genuine
- * Romance scam (advance-fee fraud)
-   * cultivating romantic relationship with victim
-   * making promises of a future marriage
-   * beloved person is stuck in a foreign (usually their home) country and lacks the money to leave
- * Gandparent scam (fraudulent impersonation)
-   * grandparent gets a call or message from alleged grandchild in trouble (abroad)
-   * grandchild may be arrested in another country needing money to pay the bail
  * Fortune telling
    * uses cold reading to trick victims into paying money for alleged fortune telling
  * Clip joint
@@ -52,15 +42,6 @@
    * victim is tricked into paying money at excessively high prices
    * victim receives poor goods/service (e.g. watered-down drinks) — or even none at all
    * victim is later ejected
- * Fake antivirus / Fake support call
-   * Computer users are unsolicitedly contacted by
-     * scammers claiming to represent Microsoft etc.
-     * alleged antivirus software installed on their computer
-   * scammers tell unsuspecting victim that they have problems/errors on their computer which must be fixed
-   * victims may be tricked into
-     * paying money for *no* service
-     * actually *installing* viruses, malware or spyware
-     * allow the scammers remote access to the computer
  * Dropped Wallet scam
    * scammer pretends to unintentionally drop their purse
    * victim picks up the purse in good faith and wants to return it to the scammer
@@ -90,16 +71,39 @@
  * Lottery fraud by proxy
    * scammer fakes an alleged winning ticket but claims not to be eligible for its redemption
    * victim buys "winning ticket" from scammer — and will later even be held criminally liable when trying to redeem it
+
+### Long cons (take days or weeks)
+
+ * Spanish Prisoner scam / Nigerian scam
+   * enlisting the victim to aid in retrieving some stolen money from a hidden place
+   * taking advantage of the victim's greed
+   * tricking the victim into believing into the existence of the money
+   * preventing the victim from going to the police by making them act criminally themself which they would have to admit
+   * luring with faked cheques that have a manipulated recipient but are otherwise genuine
+ * Romance scam (advance-fee fraud)
+   * cultivating romantic relationship with victim
+   * making promises of a future marriage
+   * beloved person is stuck in a foreign (usually their home) country and lacks the money to leave
+ * Gandparent scam (fraudulent impersonation)
+   * grandparent gets a call or message from alleged grandchild in trouble (abroad)
+   * grandchild may be arrested in another country needing money to pay the bail
+ * Fake antivirus / Fake support call
+   * Computer users are unsolicitedly contacted by
+     * scammers claiming to represent Microsoft etc.
+     * alleged company behind antivirus software installed on their computer
+   * scammers tell unsuspecting victim that they have problems/errors on their computer which must be fixed
+   * victims may be tricked into
+     * paying money for *no* service
+     * actually *installing* viruses, malware or spyware
+     * allow the scammers remote access to the computer
  * Fake casting agent scam
    * scammer pretends to be casting agent for a modeling agency searching for new talents
    * victim is told they need a professional portfolio — which requires an upfront payment
  * Fraudulent directory solicitations
    * victims (business owners) receive a solicitation from a business directory designed like an invoice
-   * the scammers hope that the business owners fall victim to them by mistaking the solicitation
-     * for an actual invoice and paying it
-     * for updates/corrections that must be made to an existing entry (resulting the victim signing the document)
- * Pig-in-a-poke (information asymmetry)
-   * the victim thinks they are buying a "pig" when they are actually buying a "cat" hidden in the bag
+   * the scammers hope that the business owners fall victim to them by mistaking the solicitation ...
+     * ... for an actual invoice and paying it
+     * ... for updates/corrections that must be made to an existing entry (resulting the victim signing the document)
 
 ## Online
 
