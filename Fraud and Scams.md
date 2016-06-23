@@ -55,7 +55,7 @@
  * Fake antivirus / Fake support call
    * Computer users are unsolicitedly contacted by
      * scammers claiming to represent Microsoft etc.
-	 * alleged antivirus software installed on their computer
+     * alleged antivirus software installed on their computer
    * scammers tell unsuspecting victim that they have problems/errors on their computer which must be fixed
    * victims may be tricked into
      * paying money for *no* service
@@ -64,7 +64,7 @@
  * Dropped Wallet scam
    * scammer pretends to unintentionally drop their purse
    * victim picks up the purse in good faith and wants to return it to the scammer
-   * scammer accuses victim of stealing, asks for "stolen" money to be returned and threatens to call the police   
+   * scammer accuses victim of stealing, asks for "stolen" money to be returned and threatens to call the police
  * Badger game (extortion)
    * the victim (usually a married man) is deliberately coerced into a compromising position (usually a supposed affair)
    * the victim is threatened with public exposure unless blackmail money is paid
