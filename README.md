@@ -2,6 +2,12 @@
 
 Random pieces of knowledge — with anecdotes and quotes
 
+## Contributing
+
+All corrections and improvements are welcome! Additions cannot be accepted for reasons of scope, unfortunately.
+
+If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
+
 ## License
 
 ```
