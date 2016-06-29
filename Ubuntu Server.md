@@ -316,16 +316,16 @@
  * Add a new cron job using
 
    ```
-   $ crontab -e
-   ```
-
-   for an entry in your own crontab or
-
-   ```
    $ sudo crontab -e
    ```
 
-   for an entry in the `root` user's crontab.
+   for an entry in the `root` user's crontab or
+
+   ```
+   $ crontab -e
+   ```
+
+   for an entry in your own crontab.
 
    Choose `nano` or any other editor you prefer if you are asked. Then add a new line at the end of the file, preserving the trailing newline. Specify both the time schedule and the command to run.
 
