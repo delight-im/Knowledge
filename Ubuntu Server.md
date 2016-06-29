@@ -270,6 +270,40 @@
 
    Select your region and city with the arrow keys and continue by pressing `Enter` each time.
 
+## Updates
+
+ * In order to update packages, run
+
+   ```
+   $ sudo apt-get update
+   $ sudo apt-get upgrade
+   ```
+
+   and review the list of packages that will be updated. If everything is fine, confirm by entering `Y` and pressing `Enter`.
+
+ * If after running
+
+   ```
+   $ sudo apt-get upgrade
+   ```
+
+   you see the message
+
+   ```
+   The following packages have been kept back:
+       package1
+       package2
+       ...
+   ```
+
+   just run
+
+   ```
+   sudo apt-get install package1 package2 ...
+   ```
+
+   as well, afterwards. This updates the packages that need some dependencies added or removed.
+
 ## Cron jobs
 
  * Ensure that `cron` is installed and enabled:
