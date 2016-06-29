@@ -1,4 +1,4 @@
-# Ubuntu
+# Ubuntu Server
 
 ## Security
 
