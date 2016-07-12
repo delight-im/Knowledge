@@ -53,6 +53,10 @@
 
    in exactly that order, where `{pageLanguage}` is an [ISO 639](https://de.wikipedia.org/wiki/ISO_639) or [BCP47](http://www.ietf.org/rfc/bcp/bcp47.txt) code, e.g. `en` or `de`, and `{charset}` is the character encoding that the page uses, e.g. `utf-8`.
 
+## CSS
+
+ * If you want to use native fonts on Android, iOS/Mac and Windows, with reliable fallback fonts, you may try this: `font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;`
+
 ## Domains
 
  * Domain extensions (TLDs) that Google treats as *generic*, i.e. suitable for international applications that are not targeted at a specific country, are the gTLDs `.aero`, `.biz`, `.cat`, `.com`, `.coop`, `.edu`, `.gov`, `.info`, `.int`, `.jobs`, `.mil`, `.mobi`, `.museum`, `.name`, `.net`, `.org`, `.pro`, `.tel` and `.travel`, among more recent additions, and the ccTLDs `.ad`, `.as`, `.asia`, `.bz`, `.cc`, `.cd`, `.co`, `.dj`, `.eu`, `.fm`, `.io`, `.la`, `.me`, `.ms`, `.nu`, `.sc`, `.sr`, `.su`, `.tv`, `.tk` and `.ws`.
