@@ -40,3 +40,25 @@
  * "[A]s far as equity is concerned, it's worth $0 until you exit. There's a potential for millions, but my lottery ticket is also worth potentially millions of dollars. My landlord won't accept my lottery ticket as payment." (Jemaclus)
  * "So one way to insider trade is, you work at a bank, and you advise on mergers, and before a merger happens you meet a guy and write the name of the target on a napkin, and the guy reads the napkin, and then he eats it, and then he buys stock in the target, and he makes money, and then you meet in a parking lot and he hands you a bag of cash representing your cut of his profits. There are a lot of variations, many involving golf, but that's the basic structure." (Matt Levine)
  * "I swear to you, sitting a throne is a thousand times harder than winning one." (George R. R. Martin)
+
+## Salary negotiation
+
+In job interviews and negotiations, you'll usually get asked about your current salary and your desired salary, often very early in the process. For that situation, Patrick McKenzie and Josh Doody recommend the following:
+
+ * Show confidence, professionalism and competence in your response to the salary question.
+ * Do not lie in response to the salary question. Do not invent any high salary. Be honest and only *withhold* information.
+ * Perhaps suggest to get back to the salary question later on, after you've both made sure you're a good fit for each other. If you're the right fit, you'll probably be able to agree on the numbers regarding salary, vacation days and so on. Otherwise, you don't need to worry about the numbers, anyway. They are irrelevant.
+ * The later in the process you talk about the salary, the better. They will offer and accept higher salaries *after* learning about your skill level, as opposed to the time *before*. Otherwise, you might not even get a chance anymore to demonstrate your strengths.
+ * If you actually give a number as a response to the salary question, this will immediately cap your range for the negotiation. That means you'll lose out on any higher salary that they might have been willing to offer. So don't do this. *Never* give a number first.
+ * You might answer that you're not comfortable sharing the requested information and that you'd rather want to focus on the value you might add to the company.
+ * If they say they need a number in order to move the process forward, they're just lying to you in order to compromise your negotiating position.
+ * Saying that you want to make a (big) step forward both in terms of responsibility and compensation signals that you're willing to perform (even) better than before and accomplish more, but also want proportionately better compensation.
+ * Illustrate that only *they* know how they value your skills, how much they pay other people at their company, what their company's needs are, and how much value you'll be adding to their company. So they should suggest a base for the negotiations.
+ * Explain that they might give you a number and you'll happily tell them whether this is in your accepted range or not.
+ * Say that you *trust* them to give you a fair offer that is consistent with their standard practices and general compensation in the industry.
+ * Continue to block requests for a specific number or range, even if they keep pressing you on that number.
+ * Prior to the negotiation, you should have thought about your minimum acceptable salary. Now, do *not* accept any offer below that number.
+ * After receiving your first offer from the company, *no matter what number it is*, you're going to negotiate upwards. It's unlikely they have just given you their absolute maximum initially. You *always*, as a matter of policy, negotiate *all* offers.
+ * Negotiate all the single components of the compensation (e.g. also the vacation days) to get the best possible outcome.
+ * If they decline to negotiate a single component, you might ask where they suggest there is any flexibility, given that there doesn't seem to be any flexibility on that one component.
+ * As soon as you have a formal offer, ask for one or two days to think about it.
