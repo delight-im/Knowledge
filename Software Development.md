@@ -34,6 +34,7 @@
  * "There are only two kinds of languages: the ones people complain about and the ones nobody uses." (Bjarne Stroustrup)
  * "Computer science is no more about computers than astronomy is about telescopes." (Edsger W. Dijkstra)
  * "Debugging is anticipated with distaste, performed with reluctance, and bragged about forever." (Dan Kaminsky)
+ * "[I]f we wish to count lines of code, we should not regard them as 'lines produced' but as 'lines spent': the current conventional wisdom is so foolish as to book that count on the wrong side of the ledger." (Edsger W. Dijkstra)
  * "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." (Unknown)
  * Comments should explain the *why* and not the *what*.
  * Delete code that isn't being used (and do not just comment it out). That's what version control systems are for.
