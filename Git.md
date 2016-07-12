@@ -162,10 +162,10 @@ In order to create a new branch and automatically switch to that new branch:
 
 You can mark specific points in your repository's history by adding tags. Usually, you'd want to do this for releases, but you can use tags for other purposes as well.
 
-In order to tag the current point in history, just execute the following two commands. `<TAG_NAME>` is the unique name for this new tag. When tagging releases, you should use the version number and prepend it with a `v`, e.g. `v1.0.4`. For the `<DESCRIPTION>`, you may type in a changelog.
+In order to tag the current point in history, just execute the following two commands. `<TAG_NAME>` is the unique name for this new tag. When tagging releases, you should use the version number and prepend it with a `v`, e.g. `v1.0.4`. For the `<DESCRIPTION>`, you *may* enter a description of the changes.
 
 ```
-git tag -a <TAG_NAME> -m "<DESCRIPTION>"
+git tag -a "<TAG_NAME>" -m "<DESCRIPTION>"
 git push origin --tags
 ```
 
