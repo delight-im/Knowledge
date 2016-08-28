@@ -58,6 +58,7 @@
  * Always declare classes `final`, i.e. not extensible by child classes, unless they have been designed with inheritance in mind.
  * With conventional contract law, participants or judges can see the spirit or intent behind contracts and may agree to a compromise or even intervene, should there be any typo, loophole or invalid rule. But with software contracts or *smart contracts*, only the exact characters that are in the contract matter. The intent or spirit cannot be enforced, because there is none encoded in the contract. And if human operators step in again to intervene, this just shows that the system can be manipulated.
  * "Code is a liability. Remove dead code or other bloat." (Dan Luu)
+ * "There will come a point where the accumulated complexity of our existing systems is greater than the complexity of creating a new one. When that happens all of this shit will be trashed." (Ryan Dahl)
 
 ## Charsets and Encodings
 
