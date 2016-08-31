@@ -23,5 +23,5 @@
  * [Set up a cron job](https://github.com/delight-im/Knowledge/blob/master/Ubuntu.md) in the `root` user's crontab to attempt automatic renewal of the certificate once a day (at `04:15` or any other time you prefer):
 
    ```
-   15 4 * * * letsencrypt renew
+   15 4 * * * export PATH=/usr/sbin:/usr/bin:/sbin:/bin && letsencrypt renew > /path/to/log-file.log 2>&1
    ```
