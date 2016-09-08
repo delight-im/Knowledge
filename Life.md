@@ -80,3 +80,4 @@
  * The "Rule of 72" allows you to estimate the effect of growth rates: Divide `72` by the growth rate as an integer (i.e. the actual rate multiplied by `100`) and you'll get the number of years it takes the base quantity to double.
  * It's easy to complain, blame, resent, judge and take. It's hard to inspire, teach, trust, love and believe. Do the hard work. (Vala Afshar)
  * "Service is supposed to be about making the world a better place or helping people who are less fortunate, but [when] it's done for the resume, it really just becomes about yourself." (William Deresiewicz)
+ * "The bitterness of poor quality remains long after the sweetness of low price is forgotten." (Unknown)
