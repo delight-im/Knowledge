@@ -6,3 +6,4 @@
  * "Rihanna is often described as a 'manufactured' pop star, because she doesn't write her songs, but neither did Sinatra or Elvis. She embodies a song in the way an actor inhabits a role -- and no one expects the actor to write the script." (John Seabrook)
  * Depending on the type of ads shown (e.g. pre-roll or banner ads), whether ads are paid for on a per-click (CPC) or per-view (CPM) basis, and depending on the audience (e.g. demographics and geographical origin), YouTube videos can, on average, generate between 0.80 USD and 5.00 USD of revenue per 1,000 views for users.
  * "The contention of Frantz Fanon, the 20th century revolutionary, [was] that 'the aim of terrorism is to terrify'. How do the media help do that? By hyping the threat from terrorism." (David R. Henderson)
+ * "The current system of ad-supported news leads to clickbait and sensationalism. We need to pay for good journalism." (Andrew Ng)
