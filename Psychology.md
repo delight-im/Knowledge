@@ -6,6 +6,7 @@
  * "Because it is always possible, after the fact, to come up with a story about why things worked out the way they did -- that the first 'Harry Potter' really was a brilliant book, even if the eight publishers who rejected it didn't know that at the time -- our belief in determinism is rarely shaken, no matter how often we are surprised." (Duncan J. Watts)
  * "[W]hen people tend to like what other people like, differences in popularity are subject to what is called 'cumulative advantage', or the 'rich get richer' effect. This means that if one object happens to be slightly more popular than another at just the right point, it will tend to become more popular still." (Duncan J. Watts)
  * "All over the place, from the popular culture to the propaganda system, there is constant pressure to make people feel that they are helpless, that the only role they can have is to ratify decisions and to consume." (Noam Chomsky)
+ * "We all know that knowledge workers work best by getting into 'flow', also known as being 'in the zone', where they are fully concentrated on their work and fully tuned out of their environment. They lose track of time and produce great stuff through absolute concentration. This is when they get all of their productive work done. Writers, programmers, scientists, and even basketball players will tell you about being in the zone." (Joel Spolsky)
 
 ## Learning
 
