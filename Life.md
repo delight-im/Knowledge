@@ -81,3 +81,5 @@
  * It's easy to complain, blame, resent, judge and take. It's hard to inspire, teach, trust, love and believe. Do the hard work. (Vala Afshar)
  * "Service is supposed to be about making the world a better place or helping people who are less fortunate, but [when] it's done for the resume, it really just becomes about yourself." (William Deresiewicz)
  * "The bitterness of poor quality remains long after the sweetness of low price is forgotten." (Unknown)
+ * If you can't pay cash, you can't afford it.
+ * "[W]ages and income are about what the job is worth, not the individual. [...] Your income potential isn't about what you need or what the employer can afford; it's about the value of what you do." (Ron Rule)
