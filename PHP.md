@@ -9,6 +9,12 @@
  * Open your PHP configuration by running the following command with the path to the `php.ini` that you found:
 
    ```
+   $ sudo nano {path}
+   ```
+
+   That is, for example:
+
+   ```
    $ sudo nano /etc/php/7.0/apache2/php.ini
    ```
 
@@ -44,7 +50,7 @@
    allow_url_fopen = Off
    ```
 
- * Another directive that should be modified is the `memory_limit` for each script. Try a lower value such as `32M` first and only increase the limit when needed. When your application stops working correctly due to the memory limit, double it until you have a sufficient value.
+ * Another directive that should be modified is the `memory_limit` that is measured per script. Try a lower value such as `32M` first and only increase the limit as needed. When your application stops working correctly due to the memory limit, double it until you have a sufficient value.
 
    ```
    memory_limit = 32M
@@ -74,4 +80,14 @@
 
    ```
    $ sudo service apache2 restart
+   ```
+
+## Installation
+
+### On Ubuntu
+
+ * Run the following command:
+
+   ```
+   $ sudo apt-get install libapache2-mod-php
    ```
