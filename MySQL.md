@@ -1,5 +1,73 @@
 # MySQL
 
+## Security
+
+ * For each (web) application that needs access to a database, create a separate, application-specific user in MySQL, restricted to host `localhost` and protected by a strong password. That user should have minimal privileges, i.e. perhaps no administrative privileges at all but only table-specific read/write privileges, such as `SELECT`, `INSERT`, `UPDATE` and `DELETE`.
+ * Restrict access to your MySQL instance to `localhost`, i.e. don't expose it to the public. Your firewall may keep port `3306` closed as well.
+ * Use an SSH tunnel (e.g. via PuTTy on Windows) from remote port `3306` to `127.0.0.1:3306` on your local machine. This way, you can safely connect to your database on `localhost` and port `3306` using locally installed tools such as "MySQL Workbench".
+ * Don't install web-based administration tools such as "phpMyAdmin".
+
+## Installation
+
+### On Ubuntu
+
+ * Run the following commands to install the package:
+
+   ```
+   $ sudo apt-get update
+   $ sudo apt-get install mysql-server
+   ```
+
+   Enter a strong password for the MySQL `root` user when asked during installation, e.g. one of 32 characters, and confirm it afterwards
+
+ * Run the following command to apply more secure defaults and to remove users and tables intended for testing only:
+
+   ```
+   $ sudo mysql_secure_installation
+   ```
+
+   Reply to all questions as you wish, but generally that should be `y` for every question, except when asked whether you want to change the root password again
+
+ * Now log in to MySQL as `root`:
+
+   ```
+   $ mysql -u root -p
+   ```
+
+   When asked, enter the password for `root` that you set up before. If the password was correct, there should now be a `mysql>` prompt.
+
+ * Type the following to list all user accounts currently available:
+
+   ```
+   SELECT User, Host, HEX(authentication_string) FROM mysql.user;
+   ```
+
+   There shouldn't be any user left that has no name or no password. If there is, either remove that user or set a password (and a proper name)
+
+ * Now initialize MySQL's data directory:
+
+   ```
+   $ sudo mysqld --initialize
+   ```
+
+   You may see the following response, however, which means that this task has already been taken care of for you:
+
+   ```
+   --initialize specified but the data directory has files in it. Aborting.
+   ```
+
+ * Finally, check if MySQL is running correctly:
+
+   ```
+   $ sudo service mysql status
+   ```
+
+   You should see the following response:
+
+   ```
+   Active: active (running)
+   ```
+
 ## Geographic coordinates
 
 ### Storing data
@@ -12,19 +80,19 @@ In order to get all rows with a `Point` in `point_column` that are within `$radi
 
 ```
 WHERE
-	MBRContains(
-		LineString(
-			Point(
-				$lat - $radius / 111.133,
-				$lon - $radius / 111.320 / COS(RADIANS($lat))
-			),
-			Point(
-				$lat + $radius / 111.133,
-				$lon + $radius / 111.320 / COS(RADIANS($lat))
-			)
-		),
-		point_column
-	)
+    MBRContains(
+        LineString(
+            Point(
+                $lat - $radius / 111.133,
+                $lon - $radius / 111.320 / COS(RADIANS($lat))
+            ),
+            Point(
+                $lat + $radius / 111.133,
+                $lon + $radius / 111.320 / COS(RADIANS($lat))
+            )
+        ),
+        point_column
+    )
 ```
 
 ### Selecting distances
@@ -33,5 +101,5 @@ In order to calculate an approximation of the distance between the `Point` in `p
 
 ```
 SELECT
-	SQRT(POW((X(point_column) - $lat) * 111.133, 2) + POW((Y(point_column) - $lon) * 111.320 * COS(RADIANS($lat)), 2)) AS distance
+    SQRT(POW((X(point_column) - $lat) * 111.133, 2) + POW((Y(point_column) - $lon) * 111.320 * COS(RADIANS($lat)), 2)) AS distance
 ```
