@@ -10,15 +10,15 @@
    $ sudo passwd root
    ```
 
-   which will ask you for the new `root` password. Type or paste the new password and then press `Enter`. Repeat this for the verification. If you access the `root` account remotely via SSH only, consider using an extremely long password, e.g. with 128 characters or more, and storing that password in a password manager on the remote machine.
+   which will ask you for the new `root` password. Type or paste the new password and then press `Enter`. Repeat this for the verification. If you access the `root` account remotely via SSH only, consider using an extremely long password, e.g. with 128 or 196 characters, and storing that password in a password manager on a remote machine, e.g. your personal computer or a development machine.
 
- * If you can only login as `root` so far, add a new user other than `root` as the next step. Open the terminal and run
+ * If you can only log in as `root` so far, add a new user other than `root` as the next step. To do so, open the terminal and run
 
    ```
    $ adduser {my-username}
    ```
 
-   where you replace `{my-username}` with the desired name for your account. Type or paste the desired password and confirm with `Enter`. Then repeat this for the verification. Again, if you're going to access this new account remotely via SSH only, consider using an extremely long password, e.g. with 128 characters or more, and storing that password in a password manager on the remote machine.
+   where you replace `{my-username}` with the desired name for your account. Type or paste the desired password and confirm with `Enter`. Then repeat this for the verification. Again, if you're going to access this new account remotely via SSH only, consider using an extremely long password, e.g. with 128 or 196 characters, and storing that password in a password manager on the remote machine.
 
    When asked for additional user information, just leave the fields empty by pressing `Enter` each time. When asked whether all information is correct, type `Y` and press `Enter` to confirm.
 
@@ -30,7 +30,7 @@
 
    where you replace `{my-username}` with the new username again.
 
-   From now on, you should always sign in as `{my-username}` instead of `root` and prefix commands on the terminal with `sudo` if you need more privileges.
+   From now on, you should always sign in via SSH as `{my-username}` instead of `root` and prefix commands on the terminal with `sudo` if you need more privileges. Try logging out and then signing back in with the new account now.
 
  * Allow `su` command to be used by administrators only:
 
@@ -198,7 +198,7 @@
 
 ### IPv6
 
- * Disable IPv6 support unless you need it already *and* have firewall rules set up for it:
+ * Disable IPv6 support unless you need it *and* have firewall rules set up for it:
 
    ```
    $ sudo nano /etc/sysctl.conf
@@ -243,7 +243,7 @@
    $ sudo ufw limit {my-ssh-port}/tcp
    ```
 
-   Remember to replace `{my-ssh-port}` with your port number from the SSH configuration again.
+   Remember to replace `{my-ssh-port}` with your port number from the SSH configuration.
 
  * If you want to run a public web server, accept HTTP and HTTPS traffic as well:
 
@@ -257,8 +257,6 @@
    ```
    $ sudo ufw enable
    ```
-
-   Type `y` and press `Enter` for the changes to take effect.
 
 ## Installation
 
@@ -337,4 +335,10 @@
 
    ```
    $ sudo crontab -l
+   ```
+
+   or
+
+   ```
+   $ crontab -l
    ```
