@@ -52,7 +52,7 @@
    $ sudo apt-get install apache2
    ```
 
- * Verify that you can see the "Apache2 Default Page" telling you that "It works!" when navigating to your server's public IP address using a web browser on another machine
+ * Verify that you can see the "Apache2 Default Page" telling you that "It works!" when navigating to your server's public IP address using a web browser on another machine.
 
  * Enable usage of `.htaccess` files for additional configuration directives
 
@@ -86,9 +86,9 @@
    $ sudo chmod -R 755 /var/www/{my-domain}
    ```
 
-   where you replace `{my-domain}` with the domain name of each site, e.g. `example.com`, and `{sftp-user}` with the name of your SFTP user (or any other regular user) that should own the folder
+   Replace `{my-domain}` with the domain name of each site, e.g. `example.com`, and `{sftp-user}` with the name of your SFTP user (or any other regular user) that should own the folder.
 
- * Perhaps add some demo pages by creating simple HTML files in each `public` directory
+ * Perhaps add some demo pages by creating simple HTML files in each `public` directory.
 
  * Create the site-specific configuration files:
 
@@ -129,11 +129,11 @@
    $ sudo service apache2 reload
    ```
 
- * You may now use the `hosts` file on your personal computer or development machine to test the setup with a *temporary* domain entry
+ * You may now use the `hosts` file on your personal computer or development machine to test the setup with a *temporary* domain entry.
 
- * In order to publish the site, point the specified domain {my-domain} to the server by updating its DNS configuration
+ * In order to publish the site, point the specified domain `{my-domain}` to the server by updating its DNS configuration.
 
- * Whenever you make changes to these `*.conf` files later, you have to refresh the server via
+ * Whenever you make changes to these `*.conf` files later, you have to refresh the server again via the following command:
 
    ```
    $ sudo service apache2 reload
