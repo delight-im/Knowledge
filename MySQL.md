@@ -18,15 +18,15 @@
    $ sudo apt-get install mysql-server
    ```
 
-   Enter a strong password for the MySQL `root` user when asked during installation, e.g. one of 32 characters, and confirm it afterwards
+   Enter a strong password for the MySQL `root` user when asked during installation, e.g. one of 32 characters, and confirm it afterwards.
 
- * Run the following command to apply more secure defaults and to remove users and tables intended for testing only:
+ * Run the following command to apply more secure defaults and to remove users and tables intended only for testing:
 
    ```
    $ sudo mysql_secure_installation
    ```
 
-   Reply to all questions as you wish, but generally that should be `y` for every question, except when asked whether you want to change the root password again
+   Reply to all questions as you wish, but generally that should be `y` for every question, except when asked whether you want to change the root password again.
 
  * Now log in to MySQL as `root`:
 
@@ -34,7 +34,7 @@
    $ mysql -u root -p
    ```
 
-   When asked, enter the password for `root` that you set up before. If the password was correct, there should now be a `mysql>` prompt.
+   When asked, enter the password for `root` that you set up before. If the password was correct, there should now be a `mysql` prompt.
 
  * Type the following to list all user accounts currently available:
 
@@ -42,7 +42,7 @@
    SELECT User, Host, HEX(authentication_string) FROM mysql.user;
    ```
 
-   There shouldn't be any user left that has no name or no password. If there is, either remove that user or set a password (and a proper name)
+   There shouldn't be any user left that has no name or no password. If there is, either remove that user or set a password.
 
  * Now initialize MySQL's data directory:
 
