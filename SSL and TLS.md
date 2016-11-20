@@ -20,8 +20,8 @@
 
  * Check if your site is available via HTTPS now and perhaps also [check your configuration using an online tool](https://www.ssllabs.com/ssltest/)
 
- * [Set up a cron job](https://github.com/delight-im/Knowledge/blob/master/Ubuntu.md) in the `root` user's crontab to attempt automatic renewal of the certificate once a day (at `04:15` or any other time you prefer):
+ * [Set up a cron job](https://github.com/delight-im/Knowledge/blob/master/Ubuntu.md) in the `root` user's crontab to attempt automatic renewal of the certificate twice a day (at *random* times), e.g.:
 
    ```
-   15 4 * * * export PATH=/usr/sbin:/usr/bin:/sbin:/bin && letsencrypt renew > /path/to/log-file.log 2>&1
+   14 1,11 * * * export PATH=/usr/sbin:/usr/bin:/sbin:/bin && letsencrypt renew > /path/to/log-file.log 2>&1
    ```
