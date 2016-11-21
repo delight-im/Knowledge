@@ -1,6 +1,8 @@
 # Git
 
-## Setting up your identity
+## Installation
+
+### Setting up your identity
 
 Before creating any commits in Git, you should first set your identity in the configuration. This is important because this information will be immutably written into every single commit. Apart from that, note that this information is public.
 
@@ -9,7 +11,26 @@ $ git config --global user.name "<YOUR_NAME>"
 $ git config --global user.email <YOUR_EMAIL_ADDRESS>
 ```
 
-## Checking your settings
+### Remembering (caching) passwords for HTTPS
+
+When cloning repositories over HTTPS, you authenticate via usernames and passwords, compared to SSH keys for usage over SSH. If you want to let Git remember passwords, run one of the following commands:
+
+```
+# On Linux
+$ git config --global credential.helper "cache --timeout=315576000"
+# On Windows
+$ git config --global credential.helper wincred
+```
+
+### Handling line endings correctly on Windows
+
+You'll probably want Git to convert line endings to the native Windows line endings (CRLF) on checkout and convert back to simple LF when pushing changes. Define this behavior in the configuration like this:
+
+```
+$ git config --global core.autocrlf true
+```
+
+### Checking your settings
 
 Run the following command to see all your settings and check if they are correct:
 
@@ -17,7 +38,9 @@ Run the following command to see all your settings and check if they are correct
 $ git config --list
 ```
 
-## Update a forked repository (sync with the original again)
+## Usage
+
+### Update a forked repository (sync with the original again)
 
  1. The first time only, execute the following command to add the forked repository ("upstream") as a remote, otherwise skip it:
 
@@ -32,7 +55,7 @@ $ git config --list
     $ git push origin
     ```
 
-## Reset a repository to the forked repository's state (e.g. after denied pull request)
+### Reset a repository to the forked repository's state (e.g. after denied pull request)
 
  1. The first time only, execute the following command to add the forked repository ("upstream") as a remote, otherwise skip it:
 
@@ -48,7 +71,7 @@ $ git config --list
     $ git push origin +<BRANCH_NAME>
     ```
 
-## Show all ignored files for a repository
+### Show all ignored files for a repository
 
 ```
 $ git clean -ndX
@@ -56,13 +79,13 @@ $ git clean -ndX
 $ git status --ignored
 ```
 
-## Get a list of all remotes for a repository
+### Get a list of all remotes for a repository
 
 ```
 $ git remote -v
 ```
 
-## Remove all newly ignored files (which had not been ignored before)
+### Remove all newly ignored files (which had not been ignored before)
 
 When you've added a file to `.gitignore` that was previously in the repository already, you may run the following commands to remove the file from the repository, in addition to it being added to `.gitignore`:
 
@@ -71,13 +94,13 @@ $ git rm -r --cached .
 $ git add .
 ```
 
-## Changing the URL of a repository's remote
+### Changing the URL of a repository's remote
 
 ```
 $ git remote set-url <REMOTE_NAME> <NEW_REMOTE_URL>
 ```
 
-## Discard unstaged changes
+### Discard unstaged changes
 
 In order to discard *all* unstaged changes, run this command:
 
@@ -91,7 +114,7 @@ If you want to discard changes for a specific path only, supply a specific path 
 $ git checkout -- "<PATH_TO_DISCARD_CHANGES_FOR>"
 ```
 
-## Undo a commit that has already been published (safe)
+### Undo a commit that has already been published (safe)
 
 ```
 $ git checkout HEAD~1 .
@@ -99,14 +122,14 @@ $ git commit -m "Undo some commit"
 $ git push <REMOTE_NAME> <BRANCH_NAME>
 ```
 
-## Undo a commit that has already been published (dangerous)
+### Undo a commit that has already been published (dangerous)
 
 ```
 $ git reset --hard HEAD~1
 $ git push -f <REMOTE_NAME> <BRANCH_NAME>
 ```
 
-## Undo a local commit (that has not been published yet)
+### Undo a local commit (that has not been published yet)
 
 If you want to keep the changes in your working copy:
 
@@ -118,7 +141,7 @@ $ git reset --soft HEAD~1
 $ git reset --hard HEAD~1
 ```
 
-## Show changes that have been made to the working copy
+### Show changes that have been made to the working copy
 
 ```
 # Show unstaged changes only
@@ -131,7 +154,7 @@ $ git diff --staged
 $ git diff HEAD
 ```
 
-## Delete a branch
+### Delete a branch
 
 ```
 # Locally
@@ -141,7 +164,7 @@ $ git branch -d <BRANCH_NAME>
 $ git push <REMOTE_NAME> :<BRANCH_NAME>
 ```
 
-## Adding not only a title but also a description to a commit
+### Adding not only a title but also a description to a commit
 
 Just add another `-m` parameter to the `git commit` command:
 
@@ -149,7 +172,7 @@ Just add another `-m` parameter to the `git commit` command:
 $ git commit -m "<TITLE>" -m "<DESCRIPTION>"
 ```
 
-## Remove all untracked files and directories from a repository
+### Remove all untracked files and directories from a repository
 
 To show a preview of what will be deleted:
 
@@ -161,13 +184,13 @@ $ git clean -ndf
 $ git clean -df
 ```
 
-## Show the log in a short version
+### Show the log in a short version
 
 ```
 $ git log --pretty=oneline --abbrev-commit
 ```
 
-## Create a branch
+### Create a branch
 
 ```
 # Create but stay in current branch
@@ -177,13 +200,13 @@ $ git branch <NEW_BRANCH_NAME>
 $ git checkout -b <NEW_BRANCH_NAME>
 ```
 
-## Switch to another branch
+### Switch to another branch
 
 ```
 $ git checkout <OTHER_BRANCH_NAME>
 ```
 
-## Tagging releases
+### Tagging releases
 
 You can mark specific points in your repository's history by adding tags. Usually, you'd want to do this for releases, but you can use tags for other purposes as well.
 
@@ -194,7 +217,7 @@ $ git tag -a "<TAG_NAME>" -m "<DESCRIPTION>"
 $ git push <REMOTE_NAME> --tags
 ```
 
-## Importing commits, pull requests and other changes via patch files
+### Importing commits, pull requests and other changes via patch files
 
  1. Get the patch file for the commit, pull request or other change that you want to import into your repository. For GitHub pull requests, you can easily get the patch file by appending `.patch` to the URL of the pull request and following the redirect:
 
@@ -216,7 +239,7 @@ $ git push <REMOTE_NAME> --tags
     $ git commit --author "<ORIGINAL_AUTHOR_NAME> <<ORIGINAL_AUTHOR_EMAIL>>" -m "<YOUR_COMMIT_MESSAGE>"
     ```
 
-## Copying a branch
+### Copying a branch
 
 ```
 # Create a local copy of the old branch under the new name
@@ -225,7 +248,7 @@ $ git checkout -b <NEW_BRANCH_NAME> <OLD_BRANCH_NAME>
 $ git push -u <REMOTE_NAME> <NEW_BRANCH_NAME>
 ```
 
-## Moving a branch
+### Moving a branch
 
 ```
 # Create a local copy of the old branch under the new name
@@ -238,7 +261,7 @@ $ git branch -d <OLD_BRANCH_NAME>
 $ git push origin :<OLD_BRANCH_NAME>
 ```
 
-## Clearing a branch and resetting it to empty state
+### Clearing a branch and resetting it to empty state
 
 ```
 # Create a new local branch without parents
@@ -253,22 +276,4 @@ $ git add .
 $ git commit -m "Initial commit"
 # Push the new branch to the remote
 $ git push -uf <REMOTE_NAME> <NEW_BRANCH_NAME>
-```
-
-## Git for Windows
-
-### Remembering (caching) passwords for HTTPS
-
-When cloning repositories over HTTPS, you authenticate via usernames and passwords, compared to SSH keys for usage over SSH. If you want to let Git remember passwords, run the following command:
-
-```
-$ git config --global credential.helper wincred
-```
-
-### Handling line endings correctly
-
-You'll probably want Git to convert line endings to the native Windows line endings (CRLF) on checkout and convert back to simple LF when pushing changes. Define this in the configuration like this:
-
-```
-$ git config --global core.autocrlf true
 ```
