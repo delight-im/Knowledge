@@ -16,10 +16,17 @@ $ git config --global user.email <YOUR_EMAIL_ADDRESS>
 When cloning repositories over HTTPS, you authenticate via usernames and passwords, compared to SSH keys for usage over SSH. If you want to let Git remember passwords, run one of the following commands:
 
 ```
-# On Linux
-$ git config --global credential.helper "cache --timeout=315576000"
 # On Windows
 $ git config --global credential.helper wincred
+
+# On Ubuntu
+$ sudo apt-get install libgnome-keyring-dev
+$ cd /usr/share/doc/git/contrib/credential/gnome-keyring
+$ sudo make
+$ git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+
+# On Mac OS X
+$ git config --global credential.helper osxkeychain
 ```
 
 ### Handling line endings correctly on Windows
