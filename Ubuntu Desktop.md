@@ -54,3 +54,9 @@
    $ sudo ufw enable
    $ sudo ufw status verbose
    ```
+
+## Usage
+
+### Creating shortcuts
+
+ * Press `Ctrl` and `Shift`, drag the file or folder to its target location and drop it to create a new shortcut there.
