@@ -11,3 +11,4 @@
  * Radar (*radio* detection and ranging), Lidar (*light* detection and ranging) and Sonar (*sound* navigation and ranging) are systems for object detection and similar purposes.
  * The Doppler effect is the change in frequency of periodic data (e.g. radio waves) that you see when an observer and a source move relatively to each other. You can witness it when an ambulance with a siren approaches (higher frequency), passes (normal frequency), and then departs again (lower frequency).
  * Making use of the Doppler effect, you can measure the speed of a target with Radar, Lidar and Sonar.
+ * "The difference between weather and climate is a measure of time. Weather is what conditions of the atmosphere are over a short period of time, and climate is how the atmosphere 'behaves' over relatively long periods of time. [...] Some scientists define climate as the average weather for a particular region and time period, usually taken over 30 years." (NASA)
