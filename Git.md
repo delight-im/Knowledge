@@ -8,7 +8,7 @@ Before creating any commits in Git, you should first set your identity in the co
 
 ```
 $ git config --global user.name "<YOUR_NAME>"
-$ git config --global user.email <YOUR_EMAIL_ADDRESS>
+$ git config --global user.email "<YOUR_EMAIL_ADDRESS>"
 ```
 
 ### Remembering (caching) passwords for HTTPS
