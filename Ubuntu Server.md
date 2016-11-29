@@ -342,3 +342,24 @@
    ```
    $ crontab -l
    ```
+
+## SSH
+
+### Viewing key fingerprints for verification
+
+```
+# For RSA
+$ sudo ssh-keygen -l -E md5 -f /etc/ssh/ssh_host_rsa_key.pub
+# or
+$ sudo ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_rsa_key.pub
+
+# For ECDSA
+$ sudo ssh-keygen -l -E md5 -f /etc/ssh/ssh_host_ecdsa_key.pub
+# or
+$ sudo ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_ecdsa_key.pub
+
+# For EdDSA (Ed25519)
+$ sudo ssh-keygen -l -E md5 -f /etc/ssh/ssh_host_ed25519_key.pub
+# or
+$ sudo ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_ed25519_key.pub
+```
