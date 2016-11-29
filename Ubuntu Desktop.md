@@ -5,7 +5,7 @@
 ### General
 
  * Always have some up-to-date backup of your data. If possible, it should be encrypted. Apart from that, consider storing it off-site.
- * Use a password manager to store all your passphrases digitally in an encrypted form.
+ * Use a password manager to store all your passphrases digitally in encrypted form.
  * Rather than choosing easily remembered but weak passphrases, consider writing down your passphrases on paper and storing them in a safe place.
  * Whenever leaving your device (for a longer time), either shut it down or at least hibernate it. Never just suspend it or leave it running.
 
@@ -31,14 +31,14 @@
  * Only use a distribution that has support for UEFI and Secure Boot. Ideally, you shouldn't have to import keys for Secure Boot yourself.
  * Set up software-based full disk encryption during setup of your operating system, e.g. using LUKS. Make sure to choose a strong passphrase.
  * If you have a larger budget, consider getting a drive with hardware-based full disk encryption.
- * Choose a strong passphrase for the `root` user, if asked for this. It may be the same as your password for full disk encryption in most cases.
+ * Choose a strong passphrase for the `root` user, if asked for this. In most cases, it may be the same as your password for full disk encryption.
  * Set up an unprivileged account as your primary account for daily usage. Set up a strong passphrase for this account. This account should, however, be part of the administrator group so that you may elevate privileges using `sudo` at any time.
  * Enable automatic security updates after installation.
  * Make sure that the `sshd` daemon is disabled by default after installation:
 
    ```
-   $ systemctl disable sshd.service
-   $ systemctl stop sshd.service
+   $ sudo systemctl disable sshd.service
+   $ sudo systemctl stop sshd.service
    ```
 
  * Make sure that the `ufw` firewall is installed:
@@ -59,4 +59,4 @@
 
 ### Creating shortcuts
 
- * Press `Ctrl` and `Shift`, drag the file or folder to its target location and drop it to create a new shortcut there.
+ * Press `Ctrl` and `Shift`, drag the file or folder to its target location and drop it to create a new shortcut at that target location.
