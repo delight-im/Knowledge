@@ -60,3 +60,36 @@
 ### Creating shortcuts
 
  * Press `Ctrl` and `Shift`, drag the file or folder to its target location and drop it to create a new shortcut at that target location.
+
+### Opening SSH tunnels to a remote server
+
+```
+$ ssh -p <SSH_PORT> -L <LOCAL_SOURCE_PORT>:localhost:<REMOTE_TARGET_PORT> user@server
+# Example: ssh -p 22 -L 3306:localhost:3306 john@127.0.0.1
+```
+
+### Mounting TrueCrypt volumes
+
+ 1. Run the following command to open the encrypted TrueCrypt partition or container:
+
+    ```
+    $ sudo cryptsetup open --type tcrypt <DRIVE_PATH> <CUSTOM_UNIQUE_NAME>
+    # Example: sudo cryptsetup open --type tcrypt /dev/sdb1 my-truecrypt-drive
+    ```
+
+ 1. Enter your `sudo` password if asked for this
+
+ 1. Enter the passphrase for the TrueCrypt volume
+
+ 1. Ubuntu will automatically mount the new volume
+
+ 1. Work with the volume ...
+
+ 1. If you're done, unmount the volume again using Ubuntu's GUI
+
+ 1. Finally close the encrypted TrueCrypt partition or container again:
+
+    ```
+    $ sudo cryptsetup close <CUSTOM_UNIQUE_NAME>
+    # Example: sudo cryptsetup close my-truecrypt-drive
+    ```
