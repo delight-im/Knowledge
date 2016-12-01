@@ -4,8 +4,19 @@
 
  * For each (web) application that needs access to a database, create a separate, application-specific user in MySQL, restricted to host `localhost` and protected by a strong password. That user should have minimal privileges, i.e. perhaps no administrative privileges at all but only table-specific read/write privileges, such as `SELECT`, `INSERT`, `UPDATE` and `DELETE`.
  * Restrict access to your MySQL instance to `localhost`, i.e. don't expose it to the public. Your firewall may keep port `3306` closed as well.
- * Use an SSH tunnel (e.g. via PuTTy on Windows) from remote port `3306` to `127.0.0.1:3306` on your local machine. This way, you can safely connect to your database on `localhost` and port `3306` using locally installed tools such as "MySQL Workbench".
- * Don't install web-based administration tools such as "phpMyAdmin".
+
+ * Use an SSH tunnel (e.g. via the terminal on Linux or macOS or via PuTTy on Windows) from local port `3306` or `33060` (to avoid conflicts) to remote port `3306`.
+
+   On Linux, for example, execute the following command in a terminal:
+
+   ```
+   $ ssh -p <SSH_PORT> -L <LOCAL_MYSQL_PORT>:localhost:<REMOTE_MYSQL_PORT> user@server
+   # Example: ssh -p 22 -L 3306:localhost:3306 john@127.0.0.1
+   ```
+
+   This way, you can safely connect to your database on `localhost` on the specified port using *locally* installed tools such as "MySQL Workbench" or "phpMyAdmin".
+
+ * Don't install web-based administration tools such as "phpMyAdmin" on the *remote* server.
 
 ## Installation
 
@@ -39,7 +50,7 @@
  * Type the following to list all user accounts currently available:
 
    ```
-   SELECT User, Host, HEX(authentication_string) FROM mysql.user;
+   SELECT User, Host, HEX(authentication_string), plugin FROM mysql.user;
    ```
 
    There shouldn't be any user left that has no name or no password. If there is, either remove that user or set a password.
