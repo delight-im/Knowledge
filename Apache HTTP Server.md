@@ -2,21 +2,23 @@
 
 ## Security
 
-### Main configuration
-
- * First, open the main security configuration. On Ubuntu, for example, the following command does that:
+ * First, open the server's main configuration. On Ubuntu, for example, the following command does that:
 
    ```
-   $ sudo nano /etc/apache2/conf-available/security.conf
+   $ sudo nano /etc/apache2/apache2.conf
    ```
 
- * Change `ServerTokens` to `Prod` in order to reduce the server information broadcasted in HTTP headers, error documents, etc. from the more detailed form (e.g. `Apache/2.3.4 (Ubuntu)`) to a minimal form (`Apache`).
+   Now find the section that configures the `/var/www/` directory. That section will start with the opening tag `<Directory /var/www/>`.
 
- * Change `ServerSignature` to `Off` in order to remove the server and hostname information from all sever-generated pages, e.g. error documents.
+   Make sure that there's only *one* line starting with `Options` and edit that line so that it reads as follows:
 
- * Prevent Cross-site tracing (XST) by disabling `HTTP TRACE`. To do so, make sure that `TraceEnable` is set to `Off`.
+   ```
+   Options -Indexes -FollowSymLinks -Includes -ExecCGI
+   ```
 
- * Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
+   This ensures that the server does not show full directory listings when a visitor to your website navigates to a folder without an index page. Further, the server does not follow symbolic links that an attacker might try to create in your application's directory. Server-side includes using `.shtml` files or the like will be disabled. And finally, execution of CGI scripts using `mod_cgi` will be disabled (which you can leave out if you need CGI support).
+
+   Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
 
    Restart Apache HTTP Server for the changes to take effect:
 
@@ -24,17 +26,35 @@
    $ sudo service apache2 restart
    ```
 
-### SSL/TLS
+ * As a next step, open the server's dedicated security configuration. On Ubuntu, for example, the following command does that:
 
- * First, open the SSL/TLS configuration. On Ubuntu, for example, the following command does that:
+   ```
+   $ sudo nano /etc/apache2/conf-available/security.conf
+   ```
+
+   Change `ServerTokens` to `Prod` in order to reduce the server information broadcasted in HTTP headers, error documents, etc. from the more detailed form (e.g. `Apache/2.3.4 (Ubuntu)`) to a minimal form (`Apache`).
+
+   Change `ServerSignature` to `Off` in order to remove the server and hostname information from all sever-generated pages, e.g. error documents.
+
+   Prevent Cross-site tracing (XST) by disabling `HTTP TRACE`. To do so, make sure that `TraceEnable` is set to `Off`.
+
+   Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
+
+   Restart Apache HTTP Server for the changes to take effect:
+
+   ```
+   $ sudo service apache2 restart
+   ```
+
+ * Finally, open the SSL/TLS configuration. On Ubuntu, for example, the following command does that:
 
    ```
    $ sudo nano /etc/apache2/mods-available/ssl.conf
    ```
 
- * Disable support for vulnerable SSL versions. To do so, make sure that the line starting with `SSLProtocol` either says `SSLProtocol all -SSLv2 -SSLv3` or  `SSLProtocol all -SSLv3`.
+   Disable support for vulnerable SSL versions. To do so, make sure that the line starting with `SSLProtocol` either says `SSLProtocol all -SSLv2 -SSLv3` or  `SSLProtocol all -SSLv3`.
 
- * Press `Ctrl+X` to leave. If you applied any changes, then type `Y` and press `Enter` to save.
+   Press `Ctrl+X` to leave. If you applied any changes, then type `Y` and press `Enter` to save.
 
    Restart Apache HTTP Server for the changes to take effect:
 
@@ -54,7 +74,7 @@
 
  * Verify that you can see the "Apache2 Default Page" telling you that "It works!" when navigating to your server's public IP address using a web browser on another machine.
 
- * Enable usage of `.htaccess` files for additional configuration directives
+ * Enable usage of `.htaccess` files for additional configuration directives and better portability:
 
    ```
    $ sudo nano /etc/apache2/apache2.conf
