@@ -13,10 +13,10 @@
    Make sure that there's only *one* line starting with `Options` and edit that line so that it reads as follows:
 
    ```
-   Options -Indexes -FollowSymLinks -Includes -ExecCGI
+   Options -Indexes -FollowSymLinks +SymLinksIfOwnerMatch -Includes -ExecCGI
    ```
 
-   This ensures that the server does not show full directory listings when a visitor to your website navigates to a folder without an index page. Further, the server does not follow symbolic links that an attacker might try to create in your application's directory. Server-side includes using `.shtml` files or the like will be disabled. And finally, execution of CGI scripts using `mod_cgi` will be disabled (which you can leave out if you need CGI support).
+   This ensures that the server does not show full directory listings when a visitor to your website navigates to a folder without an index page. Further, the server does not follow certain symbolic links (to other users' files) that an attacker might try to create in your application's directory, while still allowing for the use of `mod_rewrite` with `RewriteRule`. Server-side includes using `.shtml` files or the like will be disabled. And finally, execution of CGI scripts using `mod_cgi` will be disabled (which you can leave out if you need CGI support).
 
    Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
 
