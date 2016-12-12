@@ -2,7 +2,7 @@
 
 ## Security
 
- * For each (web) application that needs access to a database, create a separate, application-specific user in MySQL, restricted to host `localhost` and protected by a strong password. That user should have minimal privileges, i.e. perhaps no administrative privileges at all but only table-specific read/write privileges, such as `SELECT`, `INSERT`, `UPDATE` and `DELETE`.
+ * For each (web) application that needs access to a database, create a separate, application-specific user in MySQL, restricted to host `localhost` and protected by a strong password. That user should have minimal privileges, i.e. perhaps no administrative privileges at all but only table-specific read/write privileges, such as `SELECT`, `INSERT`, `UPDATE`, `DELETE` and `LOCK TABLES`.
  * Restrict access to your MySQL instance to `localhost`, i.e. don't expose it to the public. Your firewall may keep port `3306` closed as well.
 
  * Use an SSH tunnel (e.g. via the terminal on Linux or macOS or via PuTTy on Windows) from local port `3306` or `33060` (to avoid conflicts) to remote port `3306`.
@@ -78,6 +78,26 @@
    ```
    Active: active (running)
    ```
+
+## Backups
+
+### Exporting data
+
+```
+$ mysqldump --add-locks --complete-insert --create-options --default-character-set=utf8mb4 --disable-keys --extended-insert --lock-tables --order-by-primary --password --protocol=tcp --quick --quote-names --set-charset --skip-add-drop-table --skip-comments --skip-triggers --tz-utc --host=127.0.0.1 --port=3306 --user="my-username" --result-file="my-output-filename.sql" "my-database-name"
+```
+
+ 1. Make sure that your MySQL user has at least the `SELECT` and `LOCK TABLES` privileges on all tables that you want to export.
+ 1. Change the value of the `--user` option to the name of your MySQL user.
+ 1. Change the value of the `--result-file` option to the filename that you wish your output file to have.
+ 1. Change the value of the main argument to the name of the database that you want to export.
+ 1. Optionally, adjust the value of the `--host` and `--port` options in order to connect to another machine or on a different port.
+ 1. Optionally, if you wish to export the table *structure* only, add the `--no-data` option.
+ 1. Optionally, if you wish to export the table *data* only, add the `--no-create-info` option.
+ 1. Optionally, if you wish to export certain tables only, simply append the table names to the end of the command, separated by spaces.
+ 1. Execute the (modified) command, either on the database server or on a remote machine (e.g. using an SSH tunnel).
+ 1. After executing the command, you will be prompted for your MySQL user's database password.
+ 1. Find your export file in the current working directory, with the name specified using `--result-file`.
 
 ## Geographic coordinates
 
