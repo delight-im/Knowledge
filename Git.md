@@ -284,3 +284,16 @@ $ git commit -m "Initial commit"
 # Push the new branch to the remote
 $ git push -uf <REMOTE_NAME> <NEW_BRANCH_NAME>
 ```
+
+### Counting commits on a branch
+
+```
+# Total count
+$ git rev-list --count <BRANCH_NAME>
+# Example: git rev-list --count master
+
+# or
+
+# Count per author
+$ git shortlog -s -n
+```
