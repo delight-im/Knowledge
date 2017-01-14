@@ -7,6 +7,14 @@
 ### Downloading photos and videos
 
 ```javascript
+// Browser bookmarklet (minified):
+
+javascript:!function(){var a=window._sharedData.entry_data.PostPage[0].media,b=a.video_url||a.display_src,c=a.id,d=a.owner.username,e=a.owner.id,f=document.createElement("a");f.href=b,f.download=d+"_-_"+e+"_-_"+c+".jpg",f.innerHTML="",f.style.display="none",document.body.appendChild(f),f.click()}();
+
+// or
+
+// Original JavaScript function:
+
 (function () {
 	var data = window._sharedData.entry_data.PostPage[0].media;
 	var mediaUrl = data.video_url || data.display_src;
@@ -24,8 +32,4 @@
 
 	downloadLink.click();
 })();
-
-// or
-
-!function(){var a=window._sharedData.entry_data.PostPage[0].media,b=a.video_url||a.display_src,c=a.id,d=a.owner.username,e=a.owner.id,f=document.createElement("a");f.href=b,f.download=d+"_-_"+e+"_-_"+c+".jpg",f.innerHTML="",f.style.display="none",document.body.appendChild(f),f.click()}();
 ```
