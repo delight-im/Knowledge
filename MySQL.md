@@ -81,6 +81,8 @@
 
 ## Backups
 
+For the filenames of your backups, you may want to use `"$(date -u +"%Y%m%dT%H%M%SZ").sql"` on Linux or something similar on other platforms, which uses the current UTC time in ISO 8601 format, safe for filenames on most operating systems.
+
 ### Exporting data
 
 ```
