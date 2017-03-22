@@ -363,3 +363,9 @@ $ sudo ssh-keygen -l -E md5 -f /etc/ssh/ssh_host_ed25519_key.pub
 # or
 $ sudo ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_ed25519_key.pub
 ```
+
+## Backups
+
+### Time-based filenames
+
+The expression `$(date -u +"%Y%m%dT%H%M%SZ")` expands to the current UTC time in ISO 8601 format, safe for filenames on most operating systems, and is thus ideal for usage in filenames, as in `"Backup_$(date -u +"%Y%m%dT%H%M%SZ").tar.gz"`.
