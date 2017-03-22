@@ -1,7 +1,7 @@
 # Web development
 
- * Always have three versions of your CSS stylesheet files: style.css, style.min.css (minified) and style.min.css.gz (minified + gzipped).
- * Always have three versions of your JavaScript files: script.js, script.min.js (minified) and script.min.js.gz (minified + gzipped).
+ * Always have two versions of your CSS stylesheet files: `style.css` and `style.min.css` (minified), the latter being generated automatically.
+ * Always have two versions of your JavaScript files: `script.js` and `script.min.js` (minified), the latter being generated automatically.
  * Minifiy your CSS and JavaScript files by removing unnecessary characters (white spaces, new lines etc.) without changing the functionality.
  * You can use the free online tool "cssminifier.com" if you want to minify your CSS stylesheets.
  * You can use the free online tool "jscompress.com" or the library "UglifyJS" if you want to minify your JavaScript files.
@@ -10,7 +10,7 @@
  * If you have versioned your referenced resources in HTML, you can just increase the version number to invalidate the cached file for users.
  * Use the free tool OptiPNG to post-process your PNG files. It does significantly shrink your file sizes and is a lossless optimization.
  * If you don't enable client-side caching of resources, the browser always checks for modifications, returning with status code 200 or 301.
- * In your server-side code, check whether the HTTP request header "Accept-Encoding" contains "gzip" and return gzipped resources accordingly.
+ * In your server-side code, check whether the HTTP request header `Accept-Encoding` contains `gzip` or `deflate` (or the newer `br`) and return compressed resources accordingly. In most cases, your server software should do that automatically.
  * Try to give every part of your website, every entity, a unique and permanent URL (permalink) for sharing and search engine optimization.
  * Usually, you only need a single font per website. Never use more than two different fonts, unless you have an exceptional reason for that.
  * Don't use too small objects, graphics, texts and menus. Be generous with spacing, for reasons of visual design and ease of use.
