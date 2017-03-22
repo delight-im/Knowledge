@@ -71,3 +71,107 @@
 ## Forms
 
  * "Literally including the phrase 'optional' after a label is much clearer than any visual symbol you could use to mean the same thing." (Luke Wroblewski)
+
+## Protecting your email address from address harvesting bots
+
+Any [solution](http://en.wikipedia.org/wiki/Address_munging) that is used by lots of people will be [defeated](http://en.wikipedia.org/wiki/Email_address_harvesting). But it's easy to combine single techniques or to vary techniques with slightly different markup or phrases. As a last resort, you could use more rigorous techniques such as hiding addresses behind captchas, but they're (even less) accessible. Whatever you decide to do, get a decent spam filter.
+
+ * Use CSS pseudo elements:
+
+   ```html
+   <style scoped style="text/css">
+       span.email::before {
+           content: attr(data-local-part) "@";
+       }
+       span.email::after {
+           content: attr(data-domain-part);
+       }
+   </style>
+
+   <span class="email" data-domain-part="example.org" data-local-part="user"></span>
+   ```
+
+ * Change text direction via CSS:
+
+   ```html
+   <style scoped style="text/css">
+       span.email {
+           unicode-bidi: bidi-override;
+           direction: rtl;
+           -webkit-user-select: none;
+           -moz-user-select: none;
+           -ms-user-select: none;
+           user-select: none;
+       }
+   </style>
+
+   <span class="email">gro.elpmaxe@resu</span>
+   ```
+
+ * Use HTML entities (decimal or hex):
+
+   ```html
+   &#117;&#115;&#101;&#114;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#111;&#114;&#103;
+
+   <!-- or -->
+
+   &#x75;&#x73;&#x65;&#x72;&#x40;&#x65;&#x78;&#x61;&#x6D;&#x70;&#x6C;&#x65;&#x2E;&#x6F;&#x72;&#x67;
+   ```
+
+ * Inject elements that are hidden via CSS:
+
+   ```html
+   <style scoped style="text/css">
+       span.rubbish {
+           display: none;
+       }
+   </style>
+
+   user<span class="rubbish">info</span>@<span class="rubbish">example</span>example<span class="rubbish">site</span>.<span class="rubbish">com</span>org
+   ```
+
+ * Write using a joined array in JavaScript:
+
+   ```html
+   <script type="text/javascript">
+       document.write(['user', /* some */ '@', /* confusing */ 'example', /* words */ '.', /* here */ 'org'].join(''));
+   </script>
+   ```
+
+ * Write using ROT-13 in JavaScript:
+
+   ```html
+   <script type="text/javascript">
+       function rot13(str) {
+           return str.replace(/[a-zA-Z]/g, function(c) {
+               return String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+           });
+       }
+
+       document.write(rot13('hfre@rknzcyr.bet'));
+   </script>
+   ```
+
+ * Write (using concatenated strings) in JavaScript:
+
+   ```html
+   <script type="text/javascript">document.write('user' + '@' + 'example.org');</script>
+   ```
+
+ * Disassemble with descriptive terms:
+
+   ```html
+   user [at] example [dot] org
+   ```
+
+ * Place HTML comments in-between:
+
+   ```html
+   user<!-- some -->@<!-- 'confusing' -->example<!-- words -->.<!-- here -->org
+   ```
+
+ * Inject phrases to be removed by the user:
+
+   ```html
+   userREMOVE_THIS@example.org
+   ```
