@@ -9,15 +9,15 @@
 ```javascript
 // Browser bookmarklet (minified):
 
-javascript:!function(){var a=window._sharedData.entry_data.PostPage[0].media,b=a.video_url||a.display_src,c=a.id,d=a.owner.username,e=a.owner.id,f=document.createElement("a");f.href=b,f.download=d+"_-_"+e+"_-_"+c+".jpg",f.innerHTML="",f.style.display="none",document.body.appendChild(f),f.click()}();
+javascript:!function(){var e=window._sharedData.entry_data.PostPage[0].graphql.shortcode_media,d=e.video_url||e.display_url,a=e.id,n=e.owner.username,o=e.owner.id,r=document.createElement("a");r.href=d,r.download=n+"_-_"+o+"_-_"+a+".jpg",r.innerHTML="",r.style.display="none",document.body.appendChild(r),r.click()}();
 
 // or
 
 // Original JavaScript function:
 
 (function () {
-    var data = window._sharedData.entry_data.PostPage[0].media;
-    var mediaUrl = data.video_url || data.display_src;
+    var data = window._sharedData.entry_data.PostPage[0].graphql.shortcode_media;
+    var mediaUrl = data.video_url || data.display_url;
     var mediaId = data.id;
     var ownerName = data.owner.username;
     var ownerId = data.owner.id;
