@@ -16,20 +16,20 @@ javascript:!function(){var a=window._sharedData.entry_data.PostPage[0].media,b=a
 // Original JavaScript function:
 
 (function () {
-	var data = window._sharedData.entry_data.PostPage[0].media;
-	var mediaUrl = data.video_url || data.display_src;
-	var mediaId = data.id;
-	var ownerName = data.owner.username;
-	var ownerId = data.owner.id;
+    var data = window._sharedData.entry_data.PostPage[0].media;
+    var mediaUrl = data.video_url || data.display_src;
+    var mediaId = data.id;
+    var ownerName = data.owner.username;
+    var ownerId = data.owner.id;
 
-	var downloadLink = document.createElement("a");
-	downloadLink.href = mediaUrl;
-	downloadLink.download = ownerName + "_-_" + ownerId + "_-_" + mediaId + ".jpg";
-	downloadLink.innerHTML = "";
-	downloadLink.style.display = "none";
+    var downloadLink = document.createElement("a");
+    downloadLink.href = mediaUrl;
+    downloadLink.download = ownerName + "_-_" + ownerId + "_-_" + mediaId + ".jpg";
+    downloadLink.innerHTML = "";
+    downloadLink.style.display = "none";
 
-	document.body.appendChild(downloadLink);
+    document.body.appendChild(downloadLink);
 
-	downloadLink.click();
+    downloadLink.click();
 })();
 ```
