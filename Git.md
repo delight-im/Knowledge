@@ -45,6 +45,28 @@ Run the following command to see all your settings and check if they are correct
 $ git config --list
 ```
 
+## Aliases
+
+### Undo staging of one or more files
+
+```bash
+# git unstage <FILES>
+git config --global alias.unstage 'reset HEAD --'
+```
+
+### Tagging releases according to Semantic Versioning (SemVer)
+
+```bash
+# git release-major
+git config --global alias.release-major '!latest=$(git describe --abbrev=0 --tags 2>/dev/null); latest=${latest:-v0.0.0}; set -- $(echo $latest | sed -e s/v// -e "s/\./ /g"); major=$1; minor=$2; patch=$3; major=$((major+1)); minor=0; patch=0; next='v'$major'.'$minor'.'$patch; git tag -a $next -m ""; echo "Previous release:"; echo -n "  "; echo $latest; echo "New release:"; echo -n "  "; echo $next'
+
+# git release-minor
+git config --global alias.release-minor '!latest=$(git describe --abbrev=0 --tags 2>/dev/null); latest=${latest:-v0.0.0}; set -- $(echo $latest | sed -e s/v// -e "s/\./ /g"); major=$1; minor=$2; patch=$3; minor=$((minor+1)); patch=0; next='v'$major'.'$minor'.'$patch; git tag -a $next -m ""; echo "Previous release:"; echo -n "  "; echo $latest; echo "New release:"; echo -n "  "; echo $next'
+
+# git release-patch
+git config --global alias.release-patch '!latest=$(git describe --abbrev=0 --tags 2>/dev/null); latest=${latest:-v0.0.0}; set -- $(echo $latest | sed -e s/v// -e "s/\./ /g"); major=$1; minor=$2; patch=$3; patch=$((patch+1)); next='v'$major'.'$minor'.'$patch; git tag -a $next -m ""; echo "Previous release:"; echo -n "  "; echo $latest; echo "New release:"; echo -n "  "; echo $next'
+```
+
 ## Usage
 
 ### Update a forked repository (sync with the original again)
