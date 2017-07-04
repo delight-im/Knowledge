@@ -47,6 +47,20 @@ $ git config --list
 
 ## Aliases
 
+### Receiving updates
+
+```bash
+# git down
+git config --global alias.down '!git pull --rebase --autostash; git submodule update --init --recursive'
+```
+
+### Sending updates
+
+```bash
+# git up
+git config --global alias.up '!git push; git push --tags'
+```
+
 ### Undo staging of one or more files
 
 ```bash
