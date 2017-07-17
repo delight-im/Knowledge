@@ -18,6 +18,21 @@
 
    This ensures that the server does not show full directory listings when a visitor to your website navigates to a folder without an index page. Further, the server does not follow certain symbolic links (to other users' files) that an attacker might try to create in your application's directory, while still allowing for the use of `mod_rewrite` with `RewriteRule`. Server-side includes using `.shtml` files or the like will be disabled. And finally, execution of CGI scripts using `mod_cgi` will be disabled (which you can leave out if you need CGI support).
 
+   Next, define custom error documents or error messages globally by inserting the following lines somewhere in the configuration file, surrounded by blank lines:
+
+   ```
+   # Define custom error documents or messages
+   ErrorDocument 400 "(400) Bad Request"
+   ErrorDocument 401 "(401) Unauthorized"
+   ErrorDocument 403 "(403) Forbidden"
+   ErrorDocument 404 "(404) Not Found"
+   ErrorDocument 410 "(410) Gone"
+   ErrorDocument 500 "(500) Internal Server Error"
+   ErrorDocument 503 "(503) Service Unavailable"
+   ```
+
+   You may change the message texts, use relative paths to documents on your server (which must start with a `/`), or even define external URLs.
+
    Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
 
    Restart Apache HTTP Server for the changes to take effect:
