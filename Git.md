@@ -37,6 +37,13 @@ You'll probably want Git to convert line endings to the native Windows line endi
 $ git config --global core.autocrlf true
 ```
 
+### Using your favorite editor for Git (e.g. when composing a commit message)
+
+```
+# e.g. for “gedit” on Ubuntu
+$ git config --global core.editor "gedit --wait"
+```
+
 ### Checking your settings
 
 Run the following command to see all your settings and check if they are correct:
