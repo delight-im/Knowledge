@@ -113,6 +113,10 @@
 
 ## Setting up Virtual Hosts
 
+ * As a first step, determine your initial set of individual sites that you want to serve. (You will still be able to add more sites later on.) Every domain, subdomain or other site that should get its own application directory will be a “virtual host”.
+
+   **Important:** To that set of hosts, add another one with a name that comes first in alphabetical order, compared to all the other hosts. For example, use a (fictitious) subdomain `000` of your primary domain, e.g. `000.example.com`. That additional host will serve as a default host and will automatically catch any undefined or invalid host requested by users (or attackers). Moreover, it will protect against HTTP header (`Host` request header) injection. If you set up SSL/TLS for any other host later, you must set up SSL/TLS for this default host as well.
+
  * For each of the individual sites that you want to serve, create a dedicated folder below the `/var/www/` directory:
 
    ```
@@ -156,7 +160,7 @@
 
    Press `Ctrl+X`, then type `Y` and press `Enter` to save and leave.
 
- * Finally, activate the new site (and disable the default host):
+ * Finally, activate the new site (and disable Apache’s template file):
 
    ```
    $ sudo a2ensite {my-domain}.conf
