@@ -88,6 +88,13 @@ git config --global alias.release-minor '!latest=$(git describe --abbrev=0 --tag
 git config --global alias.release-patch '!latest=$(git describe --abbrev=0 --tags 2>/dev/null); latest=${latest:-v0.0.0}; set -- $(echo $latest | sed -e s/v// -e "s/\./ /g"); major=$1; minor=$2; patch=$3; patch=$((patch+1)); next='v'$major'.'$minor'.'$patch; git tag -a $next -m ""; echo "Previous release:"; echo -n "  "; echo $latest; echo "New release:"; echo -n "  "; echo $next'
 ```
 
+### Ignoring redundant `git` binary names in commands
+
+```bash
+# git git status, git git commit, etc.
+git config --global alias.git '!cd "$GIT_PREFIX" && git'
+```
+
 ## Usage
 
 ### Update a forked repository (sync with the original again)
