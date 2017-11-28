@@ -95,6 +95,13 @@ git config --global alias.release-patch '!latest=$(git describe --abbrev=0 --tag
 git config --global alias.git '!cd "$GIT_PREFIX" && git'
 ```
 
+### Displaying changelog since latest tag
+
+```bash
+# git changelog
+git config --global alias.changelog '!git log $(git describe --abbrev=0 --tags)..HEAD --no-merges --pretty=oneline --abbrev-commit'
+```
+
 ## Usage
 
 ### Update a forked repository (sync with the original again)
