@@ -34,14 +34,18 @@
     $ sudo mv composer.phar /usr/local/bin/composer
     ```
 
+**Note:** If you manage multiple PHP versions on your system, make sure to provide the path to the executable for the desired PHP version to Composer. Otherwise, Composer will be forced to make wrong assumptions about your configuration and may install wrong packages.
+
 ### macOS
 
-See "Linux" above
+See “Linux” above
 
 ### Windows
 
  1. Download the [official installer](https://getcomposer.org/Composer-Setup.exe).
  1. Run the installer.
+
+**Note:** If you manage multiple PHP versions on your system, make sure to provide the path to the executable for the desired PHP version to Composer. Otherwise, Composer will be forced to make wrong assumptions about your configuration and may install wrong packages.
 
 ## Do I need to install Composer on my web server?
 
