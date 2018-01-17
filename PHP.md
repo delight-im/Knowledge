@@ -2,6 +2,12 @@
 
  * "PHP has one data structure to rule them all. The *array* is a complex, flexible, master-of-none, hybrid data structure, combining the behaviour of a *list* and a *linked map*. But we use it for everything, because PHP is pragmatic: [...] An array gets the job done, even though you wouldn't study it in a Computer Science course." (Rudi Theunissen)
 
+ * Functions and language constructs that may start external scripts or processes include `exec`, `shell_exec`, `passthru`, `system`, `proc_open`, `popen` and the backtick operator (`` `...` ``). As a regular expression, that is (collectively):
+
+   ```
+   ((?:^|[^a-zA-Z0-9_])(exec|shell_exec|passthru|system|proc_open|popen)(?:[^a-zA-Z0-9(_]*)\()|(`[^`]+`)
+   ```
+
 ## Security
 
  * If you don't know where to find your `php.ini` configuration file, create a PHP file with the content `<?php phpinfo();` and view it in your browser. The entry `Loaded Configuration File` should show you the correct file path, e.g. `/etc/php/7.0/apache2/php.ini`.
