@@ -18,7 +18,7 @@
 
    This ensures that the server does not show full directory listings when a visitor to your website navigates to a folder without an index page. Further, the server does not follow certain symbolic links (to other users' files) that an attacker might try to create in your application's directory, while still allowing for the use of `mod_rewrite` with `RewriteRule`. Server-side includes using `.shtml` files or the like will be disabled. And finally, execution of CGI scripts using `mod_cgi` will be disabled (which you can leave out if you need CGI support).
 
-   Next, define custom error documents or error messages globally by inserting the following lines somewhere in the configuration file, surrounded by blank lines:
+   Next, define custom error documents or error messages globally by inserting the following lines somewhere in the configuration file, this new block of lines as a whole surrounded by blank lines:
 
    ```
    # Define custom error documents or messages
@@ -109,7 +109,7 @@
    $ sudo service apache2 restart
    ```
 
- * [Create a dedicated user in Ubuntu](Ubuntu Server.md) that you will use for day-to-day SSH (and SFTP) access
+ * [Create a dedicated user in Ubuntu](Ubuntu%20Server.md) that you will use for day-to-day SSH (and SFTP) access
 
 ## Setting up Virtual Hosts
 
