@@ -101,7 +101,7 @@ $ man fdupes
 $ sudo tar --create --gzip --no-same-owner --no-same-permissions --file <ARCHIVE>.tar.gz <DIRECTORY>
 
 # Restore backup from <ARCHIVE>.tar.gz into <DIRECTORY>
-mkdir <DIRECTORY>
+$ mkdir <DIRECTORY>
 $ tar --extract --gzip --no-same-owner --no-same-permissions --file <ARCHIVE>.tar.gz -C <DIRECTORY> --strip-components=1
 ```
 
@@ -112,7 +112,7 @@ $ tar --extract --gzip --no-same-owner --no-same-permissions --file <ARCHIVE>.ta
 $ sudo tar --create --gzip --same-owner --same-permissions --file <ARCHIVE>.tar.gz <DIRECTORY>
 
 # Restore backup from <ARCHIVE>.tar.gz into <DIRECTORY>
-mkdir <DIRECTORY>
+$ mkdir <DIRECTORY>
 $ sudo tar --extract --gzip --same-owner --same-permissions --file <ARCHIVE>.tar.gz -C <DIRECTORY> --strip-components=1
 ```
 
