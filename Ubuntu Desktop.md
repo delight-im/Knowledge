@@ -36,21 +36,21 @@
  * Enable automatic security updates after installation.
  * Make sure that the `sshd` daemon is disabled by default after installation:
 
-   ```
+   ```bash
    $ sudo systemctl disable sshd.service
    $ sudo systemctl stop sshd.service
    ```
 
  * Make sure that the `ufw` firewall is installed:
 
-   ```
+   ```bash
    $ sudo apt-get update
    $ sudo apt-get install ufw
    ```
 
  * Enable the `ufw` firewall and block all incoming connections by default:
 
-   ```
+   ```bash
    $ sudo ufw enable
    $ sudo ufw status verbose
    ```
@@ -63,16 +63,68 @@
 
 ### Opening SSH tunnels to a remote server
 
-```
+```bash
 $ ssh -p <SSH_PORT> -L <LOCAL_SOURCE_PORT>:localhost:<REMOTE_TARGET_PORT> user@server
 # Example: ssh -p 22 -L 3306:localhost:3306 john@127.0.0.1
 ```
+
+### Adding exFAT support to the system
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install exfat-utils exfat-fuse
+```
+
+### Adding 7z support to the system
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install p7zip-full
+```
+
+### Finding duplicate files
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install fdupes
+$ man fdupes
+```
+
+### Backups
+
+#### Using archives
+
+##### Discarding file ownership and permissions
+
+```bash
+# Create backup of <DIRECTORY> in <ARCHIVE>.tar.gz
+$ sudo tar --create --gzip --no-same-owner --no-same-permissions --file <ARCHIVE>.tar.gz <DIRECTORY>
+
+# Restore backup from <ARCHIVE>.tar.gz into <DIRECTORY>
+mkdir <DIRECTORY>
+$ tar --extract --gzip --no-same-owner --no-same-permissions --file <ARCHIVE>.tar.gz -C <DIRECTORY> --strip-components=1
+```
+
+##### Preserving file ownership and permissions
+
+```bash
+# Create backup of <DIRECTORY> in <ARCHIVE>.tar.gz
+$ sudo tar --create --gzip --same-owner --same-permissions --file <ARCHIVE>.tar.gz <DIRECTORY>
+
+# Restore backup from <ARCHIVE>.tar.gz into <DIRECTORY>
+mkdir <DIRECTORY>
+$ sudo tar --extract --gzip --same-owner --same-permissions --file <ARCHIVE>.tar.gz -C <DIRECTORY> --strip-components=1
+```
+
+### Disabling saving of Bash history to file system
+
+Open `.bashrc` in your home folder (`~`) and change the value for `HISTFILESIZE` to `0`.
 
 ### Mounting TrueCrypt volumes
 
  1. Run the following command to open the encrypted TrueCrypt partition or container:
 
-    ```
+    ```bash
     $ sudo cryptsetup open --type tcrypt <DRIVE_PATH> <CUSTOM_UNIQUE_NAME>
     # Example: sudo cryptsetup open --type tcrypt /dev/sdb1 my-truecrypt-drive
     ```
@@ -89,7 +141,7 @@ $ ssh -p <SSH_PORT> -L <LOCAL_SOURCE_PORT>:localhost:<REMOTE_TARGET_PORT> user@s
 
  1. Finally close the encrypted TrueCrypt partition or container again:
 
-    ```
+    ```bash
     $ sudo cryptsetup close <CUSTOM_UNIQUE_NAME>
     # Example: sudo cryptsetup close my-truecrypt-drive
     ```
