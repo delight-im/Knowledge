@@ -49,7 +49,7 @@ $ git config --global core.editor "gedit --wait"
 Run the following command to see all your settings and check if they are correct:
 
 ```
-$ git config --list
+$ git config --global --list
 ```
 
 ## Aliases
