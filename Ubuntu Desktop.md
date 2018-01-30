@@ -120,6 +120,40 @@ $ sudo tar --extract --gzip --same-owner --same-permissions --file <ARCHIVE>.tar
 
 Open `.bashrc` in your home folder (`~`) and change the value for `HISTFILESIZE` to `0`.
 
+### Uninstalling bundled or pre-installed applications (“bloatware”)
+
+```bash
+# Email, RSS and newsgroup client with integrated spam filter
+sudo apt-get purge thunderbird && sudo apt-get autoremove
+
+# Music player and organizer
+sudo apt-get purge rhythmbox && sudo apt-get autoremove
+
+# Tool to take pictures and videos from your webcam
+sudo apt-get purge cheese && sudo apt-get autoremove
+
+# Mahjongg (classic Eastern tile game)
+sudo apt-get purge gnome-mahjongg && sudo apt-get autoremove
+
+# Minesweeper (popular puzzle game)
+sudo apt-get purge gnome-mines && sudo apt-get autoremove
+
+# Sudoku (popular puzzle game)
+sudo apt-get purge gnome-sudoku && sudo apt-get autoremove
+
+# Control Center account plugin for single sign-on with Facebook
+sudo apt-get purge account-plugin-facebook && sudo apt-get autoremove
+
+# Control Center account plugin for single sign-on with Flickr
+sudo apt-get purge account-plugin-flickr && sudo apt-get autoremove
+
+# Control Center account plugin for single sign-on with Google
+sudo apt-get purge account-plugin-google && sudo apt-get autoremove
+
+# Control Center extension for single sign-on
+sudo apt-get purge unity-control-center-signon && sudo apt-get autoremove
+```
+
 ### Mounting TrueCrypt volumes
 
  1. Run the following command to open the encrypted TrueCrypt partition or container:
