@@ -27,27 +27,30 @@
  * Make sure that the following keys have the values listed next to them. In addition to that, the respective lines must not be commented out, of course. These directives represent reasonable default values for maximum security and compatibility:
 
    ```
-   expose_php = Off
    allow_url_include = Off
-   error_reporting = E_ALL
    display_errors = Off
    display_startup_errors = Off
-   log_errors = On
-   track_errors = Off
+   error_reporting = E_ALL
+   expose_php = Off
    html_errors = Off
+   log_errors = On
+   mail.add_x_header = Off
    max_execution_time = 30
    max_input_time = 30
    post_max_size = 8M
-   mail.add_x_header = Off
-   short_open_tag = Off
-   variables_order = "GPCS"
    request_order = "GP"
+   session.auto_start = 0
+   session.cookie_domain =
+   session.cookie_httponly = 1
+   session.cookie_path = /
+   session.cookie_secure = 0
+   session.name = session_v1
    session.use_cookies = 1
    session.use_only_cookies = 1
-   session.cookie_httponly = 1
    session.use_trans_sid = 0
-   session.auto_start = 0
-   session.name = SESSID
+   short_open_tag = Off
+   track_errors = Off
+   variables_order = "GPCS"
    ```
 
  * If you don't need to open external files and URLs from your server, consider setting the value for the following directive as well:
