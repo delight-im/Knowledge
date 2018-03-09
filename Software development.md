@@ -118,6 +118,48 @@
 
  * Parts of the content must be interpreted as binary objects, i.e. they must be decoded to be readable. This is common for photos, videos, music, etc.
 
+## Naming conventions
+
+### Capitalization
+
+ * Databases
+   * Tables: `snake_case`
+   * Columns: `snake_case`
+ * Email
+   * Local part: `lisp-case`
+ * File system
+   * Generic files: `lisp-case`
+   * Java source files: `PascalCase`
+   * JavaScript class files: `PascalCase`
+   * PHP class files: `PascalCase`
+ * HTTP
+   * Cookies: `snake_case`
+ * Java
+   * Classes: `PascalCase`
+   * Methods: `camelCase`
+   * Variables: `camelCase`
+   * Constants: `ALL_CAPS`
+ * JavaScript
+   * Functions: `camelCase`
+   * Variables: `camelCase`
+   * Constants: `ALL_CAPS`
+   * Classes: `PascalCase`
+ * Network
+   * Host name (computer name): `lisp-case`
+ * PHP
+   * Classes: `PascalCase`
+   * Methods: `camelCase`
+   * Properties: `camelCase`
+   * Constants: `ALL_CAPS`
+   * Functions: `camelCase` (or `snake_case`)
+   * Variables: `camelCase` (or `snake_case`)
+ * URLs
+   * Path segments: `lisp-case`
+   * Query parameters: `lisp-case`
+   * Fragment identifier: `lisp-case`
+
+**Note:** Acronyms in `camelCase` and `PascalCase` are lowercased with the first letter capitalized. That means, write `XmlHttpRequest` instead of `XMLHTTPRequest`.
+
 ## Compression
 
  * "The ZIP format was developed by Phil Katz as an open format with an open specification, where his implementation, PKZIP, was shareware. It is an archive format that stores files and their directory structure, where each file is individually compressed." (Mark Adler)
