@@ -23,7 +23,7 @@
  * Don't make use of special browser plugins (Flash, Silverlight, Java, etc.) if possible. There are good alternatives in almost every case.
  * Always set your pages' charset, the same both in your server-side code and in your HTML markup. There are very few reasons not to use UTF-8.
  * Always set a favicon for your website. Users will see it in their tab lists and in their bookmarks, and will recognize your website.
- * If you don't have any favicon (yet), at least provide an empty icon using `<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">`. This prevents the additional requests by each client resulting in `404 Not Found` only.
+ * If you don't have any favicon (yet), at least provide an empty icon using `<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==">`. This prevents the additional requests by each client resulting in `404 Not Found` only.
  * Never store any credentials or secrets in your client-side code.
  * Enabling SSL/TLS on your site may cut your AdSense revenue in half because Google cannot show ads from any non-HTTPS ad server.
  * You should check [whether Google thinks you're web pages are mobile-optimized](https://www.google.com/webmasters/tools/mobile-friendly/) because such pages receive a ranking boost in Google's search results on mobile devices.
