@@ -102,6 +102,13 @@ git config --global alias.git '!cd "$GIT_PREFIX" && git'
 git config --global alias.changelog '!git log $(git describe --abbrev=0 --tags)..HEAD --no-merges --pretty=oneline --abbrev-commit'
 ```
 
+### Detecting remnants and leftovers from development
+
+```bash
+# git leftover
+git config --global alias.leftover '!git grep -P -i -I --untracked "((?<![a-zA-Z0-9])(TODO|FIXME|XXX|console\.log|System\.out|var_dump)(?![a-zA-Z0-9]))|([\t ]+$)"'
+```
+
 ## Usage
 
 ### Update a forked repository (sync with the original again)
