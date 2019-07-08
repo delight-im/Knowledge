@@ -179,3 +179,36 @@ sudo apt-get purge unity-control-center-signon && sudo apt-get autoremove
     $ sudo cryptsetup close <CUSTOM_UNIQUE_NAME>
     # Example: sudo cryptsetup close my-truecrypt-drive
     ```
+
+### Using optical character recognition (OCR) to convert images to searchable PDF documents
+
+```bash
+$ sudo apt-get install tesseract-ocr tesseract-ocr-eng
+# and (for other languages, e.g. French)
+$ sudo apt-get install tesseract-ocr-fra
+
+# Single image: image.png to image.pdf
+$ tesseract image.png image -l eng+fra pdf
+
+# Multiple images: *.png to images.pdf
+$ ls *.png | tesseract - images -l eng+fra pdf
+```
+
+### Resizing a batch of images to the same size
+
+```bash
+# WIDTH=1920
+# HEIGHT=1080
+# BACKGROUND=white
+mogrify -auto-orient -resize "${WIDTH}x${HEIGHT}" -gravity center -background "${BACKGROUND}" -extent "${WIDTH}x${HEIGHT}" *.jpg
+```
+
+### Combining images to a slideshow
+
+```bash
+# SECONDS_PER_IMAGE=10
+# INPUT_FILES=*.jpg
+# OUTPUT_FPS=25
+# OUTPUT_FILENAME=output.mp4
+$ ffmpeg -framerate "1/${SECONDS_PER_IMAGE}" -pattern_type glob -i "${INPUT_FILES}" -r "${OUTPUT_FPS}" -c:v libx264 -pix_fmt yuv420p "${OUTPUT_FILENAME}"
+```
