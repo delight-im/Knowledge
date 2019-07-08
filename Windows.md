@@ -41,3 +41,21 @@
 ## Java
 
  * If you use the `java` command to run a program and want UTF-8 output on the console, add the option `-Dfile.encoding=UTF-8`.
+
+## Extracting the license key from an existing Windows installation
+
+On the same computer, i.e. with the same hardware and drives present, boot from a Ubuntu live DVD. Then open a terminal window and run the following command:
+
+```bash
+$ sudo cat /sys/firmware/acpi/tables/MSDM | strings
+```
+
+Alternatively, having located the Windows drive in Ubuntu’s file manager (“Other Locations”), you may try the following set of commands:
+
+```bash
+# sudo add-apt-repository universe
+# sudo apt-get update
+# sudo apt-get install chntpw
+$ chntpw -e /path/to/drive/Windows/System32/config/SOFTWARE
+$ dpi \Microsoft\Windows NT\CurrentVersion\DigitalProductId
+```
