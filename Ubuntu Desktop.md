@@ -212,3 +212,9 @@ mogrify -auto-orient -resize "${WIDTH}x${HEIGHT}" -gravity center -background "$
 # OUTPUT_FILENAME=output.mp4
 $ ffmpeg -framerate "1/${SECONDS_PER_IMAGE}" -pattern_type glob -i "${INPUT_FILES}" -r "${OUTPUT_FPS}" -c:v libx264 -pix_fmt yuv420p "${OUTPUT_FILENAME}"
 ```
+
+### Downloading audio content from YouTube as an MP3 file
+
+```bash
+$ youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 <VIDEO_URL>
+```
