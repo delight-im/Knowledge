@@ -200,7 +200,7 @@ $ ls *.png | tesseract - images -l eng+fra pdf
 # WIDTH=1920
 # HEIGHT=1080
 # BACKGROUND=white
-mogrify -auto-orient -resize "${WIDTH}x${HEIGHT}" -gravity center -background "${BACKGROUND}" -extent "${WIDTH}x${HEIGHT}" *.jpg
+$ mogrify -auto-orient -resize "${WIDTH}x${HEIGHT}" -gravity center -background "${BACKGROUND}" -extent "${WIDTH}x${HEIGHT}" *.jpg
 ```
 
 ### Combining images to a slideshow
