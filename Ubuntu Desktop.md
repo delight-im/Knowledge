@@ -218,3 +218,17 @@ $ ffmpeg -framerate "1/${SECONDS_PER_IMAGE}" -pattern_type glob -i "${INPUT_FILE
 ```bash
 $ youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 <VIDEO_URL>
 ```
+
+### Creating copies of multiple files while adding a new suffix to each filename
+
+```bash
+$ sed -i<SUFFIX_TO_ADD> '' <FILES_TO_COPY>
+# Example: sed -i.bak '' *
+```
+
+### Replacing substrings in the names of multiple files
+
+```bash
+$ rename 's/<OLD_SUBSTRING_ESCAPED>/<NEW_SUBSTRING>/' <FILES_TO_RENAME>
+# Example: rename 's/\.jpg\.bak/.original.jpg/' *
+```
