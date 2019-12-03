@@ -1,6 +1,6 @@
 # Business
 
- * Never talk to potential acquirers of your company just for the sake of checking whether you'll receive an offer to good to refuse.
+ * Never talk to potential acquirers of your company just for the sake of checking whether you'll receive an offer too good to refuse.
  * When receiving offers from potential acquirers, expect a reasonable valuation. Should they ever be surprising, they'll always be surprisingly low.
  * When you receive an offer for a potential acquisition, let the acquirer make the effort, which they will certainly do in case they're really serious.
  * A good salesman is never the one to come up with a price first. Try to be the one reacting to the price, not the one proposing it.
