@@ -83,3 +83,4 @@
  * "The bitterness of poor quality remains long after the sweetness of low price is forgotten." (Unknown)
  * If you can't pay cash, you can't afford it.
  * "[W]ages and income are about what the job is worth, not the individual. [...] Your income potential isn't about what you need or what the employer can afford; it's about the value of what you do." (Ron Rule)
+ * “Plans are of no particular value, but planning is indispensable.” (Dwight D. Eisenhower, 1950) – or – “Plans are worthless, but planning is everything.” (Dwight D. Eisenhower, 1957)
