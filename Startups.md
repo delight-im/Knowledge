@@ -2,9 +2,17 @@
 
 ## Pivots
 
+### Flickr
+
+*Flickr* started in 2002 as the “web-based massively multiplayer online game” [*The Game Neverending*](https://web.archive.org/web/20021017070327/http://www.gameneverending.com:80/) by Stewart Butterfield’s company [*Ludicorp*](https://web.archive.org/web/20021003074542/http://www.ludicorp.com/about/default.asp). In 2004, “a Flash application that was mainly just a chat environment with real-time photo sharing” ([Eric Costello](https://web.archive.org/web/20160610133433/http://adaptivepath.org/ideas/e000519/)) was being [spun out](https://web.archive.org/web/20040328021212/http://flickr.com:80/) as “a stripped-down *Game Neverending* interface, with photos instead of game objects” ([Costello](https://web.archive.org/web/20160610133433/http://adaptivepath.org/ideas/e000519/)). You could “open a Flash-based chat window in your browser[,] upload images from your PC and drag them into a chat room for all to see” ([Dan Tynan](https://www.pcworld.com/article/116576/article.html)). By 2005, it had become a “[w]eb app for photo sharing we now call *Flickr*” ([Costello](https://web.archive.org/web/20160610133433/http://adaptivepath.org/ideas/e000519/)), allowing for asynchronous [photo management and sharing](https://web.archive.org/web/20040627020530/http://www.flickr.com:80/).
+
 ### Instagram
 
 Instagram started as the “location-based iPhone app […] Burbn [that] let users check in at particular locations, make plans for future check-ins, earn points for hanging out with friends, and post pictures of the meet-ups” ([Megan Garber](https://www.theatlantic.com/technology/archive/2014/07/instagram-used-to-be-called-brbn/373815/)) – but soon [focused](https://web.archive.org/web/20101012055741/http://www.instagr.am/) on photo sharing.
+
+### Slack
+
+*Slack* started in 2011 as [*Glitch*](https://web.archive.org/web/20100213054636/http://glitch.com:80/), “a puzzle-heavy, [w]eb-based social MMO” ([Daniel Terdiman](https://web.archive.org/web/20111008054850/http://news.cnet.com/8301-13772_3-10449721-52.html)) by Stewart Butterfield’s company [*Tiny Speck*](https://web.archive.org/web/20100212104855/http://tinyspeck.com:80/), which had been founded in 2009. By 2013, what had started as “a communication tool [the] team had developed for internal use, a chat-based tool for [the] remote team” ([Reid Hoffman](https://mastersofscale.com/stewart-butterfield-the-big-pivot/)) during the development of *Glitch*, had turned into [*Slack*](https://web.archive.org/web/20130730004000/https://slack.com/go/infinite-brain), a searchable team communication and knowledge management tool.
 
 ### WhatsApp
 
