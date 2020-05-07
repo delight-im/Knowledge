@@ -7,3 +7,11 @@
 ## Bash
 
  * If you see the error message `/bin/sh^M: bad interpreter`, your file has DOS line endings (CRLF) and must thus be converted to Unix line endings (LF) first.
+
+## Detecting DNS resolver (recursive DNS server) used by local machine
+
+```bash
+$ dig whoami.ds.akahelp.net TXT +short
+# or
+$ dig whoami.akamai.net A +short
+```
