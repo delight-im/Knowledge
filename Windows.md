@@ -59,3 +59,11 @@ Alternatively, having located the Windows drive in Ubuntu’s file manager (“O
 $ chntpw -e /path/to/drive/Windows/System32/config/SOFTWARE
 $ dpi \Microsoft\Windows NT\CurrentVersion\DigitalProductId
 ```
+
+## Detecting DNS resolver (recursive DNS server) used by local machine
+
+```
+nslookup -type=TXT whoami.ds.akahelp.net
+REM or
+nslookup -type=A whoami.akamai.net
+```
