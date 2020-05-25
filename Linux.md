@@ -51,3 +51,19 @@ dd if=/dev/cdrom bs=1 count=ISO_IMAGE_SIZE_BYTES | sha256sum
 ```
 
 You can speed this up by finding a larger proper divisor of the size in bytes, such as 2048, 2324 or 2336, and then using that for the `bs` argument while dividing the `count` argument by the same number.
+
+### Reverse lines (in a file)
+
+```bash
+$ tac <FILE>
+# or
+$ echo <STRING> | tac
+```
+
+### Reverse characters (in every line of a file)
+
+```bash
+$ rev <FILE>
+# or
+$ echo <STRING> | rev
+```
