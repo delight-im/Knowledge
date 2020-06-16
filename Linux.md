@@ -67,3 +67,44 @@ $ rev <FILE>
 # or
 $ echo <STRING> | rev
 ```
+
+### Cutting a video file using start and end time without re-encoding
+
+```bash
+$ ffmpeg -i $INPUT_FILENAME -ss $START_TIME_SECONDS -to $END_TIME_SECONDS -c:v copy -c:a copy $OUTPUT_FILENAME
+# e.g.: ffmpeg -i "input.mp4" -ss 412 -to 23910 -c:v copy -c:a copy "output.mp4"
+```
+
+### Converting a video file to use a different video and audio codec
+
+```bash
+$ ffmpeg -i $INPUT_FILENAME -c:v $VIDEO_CODEC_NAME -c:a $AUDIO_CODEC_NAME $OUTPUT_FILENAME
+# e.g.: ffmpeg -i "input.mp4" -c:v libx264 -c:a aac "output.mp4"
+```
+
+### Rotating a video file using only metadata changes to prevent re-encoding
+
+```bash
+$ ffmpeg -i $INPUT_FILENAME -metadata:s:v:0 rotate=$ANGLE_CLOCKWISE_MULTIPLE_OF_90 -c:v copy -c:a copy $OUTPUT_FILENAME
+# e.g.: ffmpeg -i "input.mp4" -metadata:s:v:0 rotate=270 -c:v copy -c:a copy "output.mp4"
+```
+
+### Rotating a video file by re-encoding the actual video stream
+
+```bash
+# ANGLE_IDENTIFIER="transpose=1" # 90 degrees clockwise
+# or
+# ANGLE_IDENTIFIER="vflip,hflip" # 180 degrees
+# or
+# ANGLE_IDENTIFIER="transpose=2" # 270 degrees clockwise
+
+$ ffmpeg -i $INPUT_FILENAME -vf $ANGLE_IDENTIFIER -c:v $VIDEO_CODEC_NAME -c:a copy $OUTPUT_FILENAME
+# e.g.: ffmpeg -i "input.mp4" -vf "transpose=1" -c:v libx264 -c:a copy "output.mp4"
+```
+
+### Removing sound from a video file by dropping the audio stream
+
+```bash
+$ ffmpeg -i $INPUT_FILENAME -c:v copy -an $OUTPUT_FILENAME
+# e.g.: ffmpeg -i "input.mp4" -c:v copy -an "output.mp4"
+```
