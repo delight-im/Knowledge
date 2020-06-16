@@ -67,3 +67,11 @@ nslookup -type=TXT whoami.ds.akahelp.net
 REM or
 nslookup -type=A whoami.akamai.net
 ```
+
+## Saving screenshots, screen captures or thumbnails from a video file
+
+```
+vlc.exe <VIDEO_FILENAME> --start-time=<START_TIME_SECONDS_OR_MINUS_1> --stop-time=<STOP_TIME_SECONDS_OR_MINUS_1> --rate=<PROCESSING_SPEED> --video-filter=scene --vout=dummy --aout=dummy --scene-format=<IMAGE_FORMAT> --scene-ratio=<CAPTURE_EVERY_NTH_FRAME> --scene-width=<IMAGE_WIDTH> --scene-height=<IMAGE_HEIGHT> --no-scene-replace --scene-prefix=<IMAGE_FILENAME_PREFIX> --scene-path=<IMAGE_OUTPUT_PATH> vlc://quit
+REM e.g.: vlc.exe "input.mp4" --start-time=-1 --stop-time=-1 --rate=1 --video-filter=scene --vout=dummy --aout=dummy --scene-format=png --scene-ratio=30 --scene-width=-1 --scene-height=-1 --no-scene-replace --scene-prefix=thumb_ --scene-path=./thumbs vlc://quit
+REM e.g.: vlc.exe "input.mp4" --start-time=24 --stop-time=2397 --rate=1 --video-filter=scene --vout=dummy --aout=dummy --scene-format=png --scene-ratio=300 --scene-width=1920 --scene-height=1080 --no-scene-replace --scene-prefix=thumb_ --scene-path=./thumbs vlc://quit
+```
