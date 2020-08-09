@@ -108,3 +108,11 @@ $ ffmpeg -i $INPUT_FILENAME -vf $ANGLE_IDENTIFIER -c:v $VIDEO_CODEC_NAME -c:a co
 $ ffmpeg -i $INPUT_FILENAME -c:v copy -an $OUTPUT_FILENAME
 # e.g.: ffmpeg -i "input.mp4" -c:v copy -an "output.mp4"
 ```
+
+### Converting a video file to audio only (e.g. MP3)
+
+```bash
+$ ffmpeg -i video.webm -b:a 320K -vn music.mp3
+# or
+$ for i in *.webm; do ffmpeg -i "$i" -b:a 320K -vn "$(basename "${i/.webm}").mp3"; done;
+```
