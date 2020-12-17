@@ -116,3 +116,17 @@ $ ffmpeg -i video.webm -b:a 320K -vn music.mp3
 # or
 $ for i in *.webm; do ffmpeg -i "$i" -b:a 320K -vn "$(basename "${i/.webm}").mp3"; done;
 ```
+
+### Wiping or overwriting unallocated (remaining free) disk space
+
+Write zeros to a temporary file named `zero.file`, which will be deleted as soon as the disk has been filled completely:
+
+```bash
+cat /dev/zero > zero.file; sync; rm zero.file
+```
+
+### Finding the IP addresses of all devices connected to the local network (LAN)
+
+```bash
+for ip in 192.168.0.{1..254}; do ping -c 1 -W 1 $ip | grep "64 bytes"; done
+```
