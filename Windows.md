@@ -75,3 +75,17 @@ vlc.exe <VIDEO_FILENAME> --start-time=<START_TIME_SECONDS_OR_MINUS_1> --stop-tim
 REM e.g.: vlc.exe "input.mp4" --start-time=-1 --stop-time=-1 --rate=1 --video-filter=scene --vout=dummy --aout=dummy --scene-format=png --scene-ratio=30 --scene-width=-1 --scene-height=-1 --no-scene-replace --scene-prefix=thumb_ --scene-path=./thumbs vlc://quit
 REM e.g.: vlc.exe "input.mp4" --start-time=24 --stop-time=2397 --rate=1 --video-filter=scene --vout=dummy --aout=dummy --scene-format=png --scene-ratio=300 --scene-width=1920 --scene-height=1080 --no-scene-replace --scene-prefix=thumb_ --scene-path=./thumbs vlc://quit
 ```
+
+## Wiping or overwriting unallocated (remaining free) disk space
+
+Download “SDelete” from Sysinternals [here](http://web.archive.org/web/20140902022253/http://download.sysinternals.com/files/SDelete.zip) or [here](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete). Then use it to write zeros to drive “C:” until it’s filled completely:
+
+```
+sdelete -z c:
+```
+
+## Finding the IP addresses of all devices connected to the local network (LAN)
+
+```
+for /L %i in (1,1,254) do ping -4 -n 1 -w 1000 192.168.0.%i | findstr -l -i "bytes=32"
+```
